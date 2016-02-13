@@ -7,16 +7,18 @@ public class UIUpdater : MonoBehaviour {
     public Runner p1;
     public Runner p2;
 
-    private Text speedText;
+    public Text p1Speed;
+    public Text p2Speed;
+
     // Use this for initialization
-    void Start()
-    {
-        // TODO: Update this find objects better... this is a temp solution
-        speedText = GameObject.FindGameObjectWithTag("UI").GetComponent<Text>();
-    }
+    //void Start()
+    //{
+
+    //}
 
     // Update is called once per frame
     void FixedUpdate () {
-        speedText.text = p1.speed.ToString();
+        p1Speed.text = p1.speed.ToString();
+        p2Speed.text = p2.speed.ToString();
 	}
 }

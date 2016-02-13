@@ -1,0 +1,5769 @@
+fileFormatVersion: 2
+guid: 7483922fc1e73154abda226bea23cdb5
+timeCreated: 1455380744
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mario2tiles_0
+    21300002: mario2tiles_1
+    21300004: mario2tiles_2
+    21300006: mario2tiles_3
+    21300008: mario2tiles_4
+    21300010: mario2tiles_5
+    21300012: mario2tiles_6
+    21300014: mario2tiles_7
+    21300016: mario2tiles_8
+    21300018: mario2tiles_9
+    21300020: mario2tiles_10
+    21300022: mario2tiles_11
+    21300024: mario2tiles_12
+    21300026: mario2tiles_13
+    21300028: mario2tiles_14
+    21300030: mario2tiles_15
+    21300032: mario2tiles_16
+    21300034: mario2tiles_17
+    21300036: mario2tiles_18
+    21300038: mario2tiles_19
+    21300040: mario2tiles_20
+    21300042: mario2tiles_21
+    21300044: mario2tiles_22
+    21300046: mario2tiles_23
+    21300048: mario2tiles_24
+    21300050: mario2tiles_25
+    21300052: mario2tiles_26
+    21300054: mario2tiles_27
+    21300056: mario2tiles_28
+    21300058: mario2tiles_29
+    21300060: mario2tiles_30
+    21300062: mario2tiles_31
+    21300064: mario2tiles_32
+    21300066: mario2tiles_33
+    21300068: mario2tiles_34
+    21300070: mario2tiles_35
+    21300072: mario2tiles_36
+    21300074: mario2tiles_37
+    21300076: mario2tiles_38
+    21300078: mario2tiles_39
+    21300080: mario2tiles_40
+    21300082: mario2tiles_41
+    21300084: mario2tiles_42
+    21300086: mario2tiles_43
+    21300088: mario2tiles_44
+    21300090: mario2tiles_45
+    21300092: mario2tiles_46
+    21300094: mario2tiles_47
+    21300096: mario2tiles_48
+    21300098: mario2tiles_49
+    21300100: mario2tiles_50
+    21300102: mario2tiles_51
+    21300104: mario2tiles_52
+    21300106: mario2tiles_53
+    21300108: mario2tiles_54
+    21300110: mario2tiles_55
+    21300112: mario2tiles_56
+    21300114: mario2tiles_57
+    21300116: mario2tiles_58
+    21300118: mario2tiles_59
+    21300120: mario2tiles_60
+    21300122: mario2tiles_61
+    21300124: mario2tiles_62
+    21300126: mario2tiles_63
+    21300128: mario2tiles_64
+    21300130: mario2tiles_65
+    21300132: mario2tiles_66
+    21300134: mario2tiles_67
+    21300136: mario2tiles_68
+    21300138: mario2tiles_69
+    21300140: mario2tiles_70
+    21300142: mario2tiles_71
+    21300144: mario2tiles_72
+    21300146: mario2tiles_73
+    21300148: mario2tiles_74
+    21300150: mario2tiles_75
+    21300152: mario2tiles_76
+    21300154: mario2tiles_77
+    21300156: mario2tiles_78
+    21300158: mario2tiles_79
+    21300160: mario2tiles_80
+    21300162: mario2tiles_81
+    21300164: mario2tiles_82
+    21300166: mario2tiles_83
+    21300168: mario2tiles_84
+    21300170: mario2tiles_85
+    21300172: mario2tiles_86
+    21300174: mario2tiles_87
+    21300176: mario2tiles_88
+    21300178: mario2tiles_89
+    21300180: mario2tiles_90
+    21300182: mario2tiles_91
+    21300184: mario2tiles_92
+    21300186: mario2tiles_93
+    21300188: mario2tiles_94
+    21300190: mario2tiles_95
+    21300192: mario2tiles_96
+    21300194: mario2tiles_97
+    21300196: mario2tiles_98
+    21300198: mario2tiles_99
+    21300200: mario2tiles_100
+    21300202: mario2tiles_101
+    21300204: mario2tiles_102
+    21300206: mario2tiles_103
+    21300208: mario2tiles_104
+    21300210: mario2tiles_105
+    21300212: mario2tiles_106
+    21300214: mario2tiles_107
+    21300216: mario2tiles_108
+    21300218: mario2tiles_109
+    21300220: mario2tiles_110
+    21300222: mario2tiles_111
+    21300224: mario2tiles_112
+    21300226: mario2tiles_113
+    21300228: mario2tiles_114
+    21300230: mario2tiles_115
+    21300232: mario2tiles_116
+    21300234: mario2tiles_117
+    21300236: mario2tiles_118
+    21300238: mario2tiles_119
+    21300240: mario2tiles_120
+    21300242: mario2tiles_121
+    21300244: mario2tiles_122
+    21300246: mario2tiles_123
+    21300248: mario2tiles_124
+    21300250: mario2tiles_125
+    21300252: mario2tiles_126
+    21300254: mario2tiles_127
+    21300256: mario2tiles_128
+    21300258: mario2tiles_129
+    21300260: mario2tiles_130
+    21300262: mario2tiles_131
+    21300264: mario2tiles_132
+    21300266: mario2tiles_133
+    21300268: mario2tiles_134
+    21300270: mario2tiles_135
+    21300272: mario2tiles_136
+    21300274: mario2tiles_137
+    21300276: mario2tiles_138
+    21300278: mario2tiles_139
+    21300280: mario2tiles_140
+    21300282: mario2tiles_141
+    21300284: mario2tiles_142
+    21300286: mario2tiles_143
+    21300288: mario2tiles_144
+    21300290: mario2tiles_145
+    21300292: mario2tiles_146
+    21300294: mario2tiles_147
+    21300296: mario2tiles_148
+    21300298: mario2tiles_149
+    21300300: mario2tiles_150
+    21300302: mario2tiles_151
+    21300304: mario2tiles_152
+    21300306: mario2tiles_153
+    21300308: mario2tiles_154
+    21300310: mario2tiles_155
+    21300312: mario2tiles_156
+    21300314: mario2tiles_157
+    21300316: mario2tiles_158
+    21300318: mario2tiles_159
+    21300320: mario2tiles_160
+    21300322: mario2tiles_161
+    21300324: mario2tiles_162
+    21300326: mario2tiles_163
+    21300328: mario2tiles_164
+    21300330: mario2tiles_165
+    21300332: mario2tiles_166
+    21300334: mario2tiles_167
+    21300336: mario2tiles_168
+    21300338: mario2tiles_169
+    21300340: mario2tiles_170
+    21300342: mario2tiles_171
+    21300344: mario2tiles_172
+    21300346: mario2tiles_173
+    21300348: mario2tiles_174
+    21300350: mario2tiles_175
+    21300352: mario2tiles_176
+    21300354: mario2tiles_177
+    21300356: mario2tiles_178
+    21300358: mario2tiles_179
+    21300360: mario2tiles_180
+    21300362: mario2tiles_181
+    21300364: mario2tiles_182
+    21300366: mario2tiles_183
+    21300368: mario2tiles_184
+    21300370: mario2tiles_185
+    21300372: mario2tiles_186
+    21300374: mario2tiles_187
+    21300376: mario2tiles_188
+    21300378: mario2tiles_189
+    21300380: mario2tiles_190
+    21300382: mario2tiles_191
+    21300384: mario2tiles_192
+    21300386: mario2tiles_193
+    21300388: mario2tiles_194
+    21300390: mario2tiles_195
+    21300392: mario2tiles_196
+    21300394: mario2tiles_197
+    21300396: mario2tiles_198
+    21300398: mario2tiles_199
+    21300400: mario2tiles_200
+    21300402: mario2tiles_201
+    21300404: mario2tiles_202
+    21300406: mario2tiles_203
+    21300408: mario2tiles_204
+    21300410: mario2tiles_205
+    21300412: mario2tiles_206
+    21300414: mario2tiles_207
+    21300416: mario2tiles_208
+    21300418: mario2tiles_209
+    21300420: mario2tiles_210
+    21300422: mario2tiles_211
+    21300424: mario2tiles_212
+    21300426: mario2tiles_213
+    21300428: mario2tiles_214
+    21300430: mario2tiles_215
+    21300432: mario2tiles_216
+    21300434: mario2tiles_217
+    21300436: mario2tiles_218
+    21300438: mario2tiles_219
+    21300440: mario2tiles_220
+    21300442: mario2tiles_221
+    21300444: mario2tiles_222
+    21300446: mario2tiles_223
+    21300448: mario2tiles_224
+    21300450: mario2tiles_225
+    21300452: mario2tiles_226
+    21300454: mario2tiles_227
+    21300456: mario2tiles_228
+    21300458: mario2tiles_229
+    21300460: mario2tiles_230
+    21300462: mario2tiles_231
+    21300464: mario2tiles_232
+    21300466: mario2tiles_233
+    21300468: mario2tiles_234
+    21300470: mario2tiles_235
+    21300472: mario2tiles_236
+    21300474: mario2tiles_237
+    21300476: mario2tiles_238
+    21300478: mario2tiles_239
+    21300480: mario2tiles_240
+    21300482: mario2tiles_241
+    21300484: mario2tiles_242
+    21300486: mario2tiles_243
+    21300488: mario2tiles_244
+    21300490: mario2tiles_245
+    21300492: mario2tiles_246
+    21300494: mario2tiles_247
+    21300496: mario2tiles_248
+    21300498: mario2tiles_249
+    21300500: mario2tiles_250
+    21300502: mario2tiles_251
+    21300504: mario2tiles_252
+    21300506: mario2tiles_253
+    21300508: mario2tiles_254
+    21300510: mario2tiles_255
+    21300512: mario2tiles_256
+    21300514: mario2tiles_257
+    21300516: mario2tiles_258
+    21300518: mario2tiles_259
+    21300520: mario2tiles_260
+    21300522: mario2tiles_261
+    21300524: mario2tiles_262
+    21300526: mario2tiles_263
+    21300528: mario2tiles_264
+    21300530: mario2tiles_265
+    21300532: mario2tiles_266
+    21300534: mario2tiles_267
+    21300536: mario2tiles_268
+    21300538: mario2tiles_269
+    21300540: mario2tiles_270
+    21300542: mario2tiles_271
+    21300544: mario2tiles_272
+    21300546: mario2tiles_273
+    21300548: mario2tiles_274
+    21300550: mario2tiles_275
+    21300552: mario2tiles_276
+    21300554: mario2tiles_277
+    21300556: mario2tiles_278
+    21300558: mario2tiles_279
+    21300560: mario2tiles_280
+    21300562: mario2tiles_281
+    21300564: mario2tiles_282
+    21300566: mario2tiles_283
+    21300568: mario2tiles_284
+    21300570: mario2tiles_285
+    21300572: mario2tiles_286
+    21300574: mario2tiles_287
+    21300576: mario2tiles_288
+    21300578: mario2tiles_289
+    21300580: mario2tiles_290
+    21300582: mario2tiles_291
+    21300584: mario2tiles_292
+    21300586: mario2tiles_293
+    21300588: mario2tiles_294
+    21300590: mario2tiles_295
+    21300592: mario2tiles_296
+    21300594: mario2tiles_297
+    21300596: mario2tiles_298
+    21300598: mario2tiles_299
+    21300600: mario2tiles_300
+    21300602: mario2tiles_301
+    21300604: mario2tiles_302
+    21300606: mario2tiles_303
+    21300608: mario2tiles_304
+    21300610: mario2tiles_305
+    21300612: mario2tiles_306
+    21300614: mario2tiles_307
+    21300616: mario2tiles_308
+    21300618: mario2tiles_309
+    21300620: mario2tiles_310
+    21300622: mario2tiles_311
+    21300624: mario2tiles_312
+    21300626: mario2tiles_313
+    21300628: mario2tiles_314
+    21300630: mario2tiles_315
+    21300632: mario2tiles_316
+    21300634: mario2tiles_317
+    21300636: mario2tiles_318
+    21300638: mario2tiles_319
+    21300640: mario2tiles_320
+    21300642: mario2tiles_321
+    21300644: mario2tiles_322
+    21300646: mario2tiles_323
+    21300648: mario2tiles_324
+    21300650: mario2tiles_325
+    21300652: mario2tiles_326
+    21300654: mario2tiles_327
+    21300656: mario2tiles_328
+    21300658: mario2tiles_329
+    21300660: mario2tiles_330
+    21300662: mario2tiles_331
+    21300664: mario2tiles_332
+    21300666: mario2tiles_333
+    21300668: mario2tiles_334
+    21300670: mario2tiles_335
+    21300672: mario2tiles_336
+    21300674: mario2tiles_337
+    21300676: mario2tiles_338
+    21300678: mario2tiles_339
+    21300680: mario2tiles_340
+    21300682: mario2tiles_341
+    21300684: mario2tiles_342
+    21300686: mario2tiles_343
+    21300688: mario2tiles_344
+    21300690: mario2tiles_345
+    21300692: mario2tiles_346
+    21300694: mario2tiles_347
+    21300696: mario2tiles_348
+    21300698: mario2tiles_349
+    21300700: mario2tiles_350
+    21300702: mario2tiles_351
+    21300704: mario2tiles_352
+    21300706: mario2tiles_353
+    21300708: mario2tiles_354
+    21300710: mario2tiles_355
+    21300712: mario2tiles_356
+    21300714: mario2tiles_357
+    21300716: mario2tiles_358
+    21300718: mario2tiles_359
+    21300720: mario2tiles_360
+    21300722: mario2tiles_361
+    21300724: mario2tiles_362
+    21300726: mario2tiles_363
+    21300728: mario2tiles_364
+    21300730: mario2tiles_365
+    21300732: mario2tiles_366
+    21300734: mario2tiles_367
+    21300736: mario2tiles_368
+    21300738: mario2tiles_369
+    21300740: mario2tiles_370
+    21300742: mario2tiles_371
+    21300744: mario2tiles_372
+    21300746: mario2tiles_373
+    21300748: mario2tiles_374
+    21300750: mario2tiles_375
+    21300752: mario2tiles_376
+    21300754: mario2tiles_377
+    21300756: mario2tiles_378
+    21300758: mario2tiles_379
+    21300760: mario2tiles_380
+    21300762: mario2tiles_381
+    21300764: mario2tiles_382
+    21300766: mario2tiles_383
+    21300768: mario2tiles_384
+    21300770: mario2tiles_385
+    21300772: mario2tiles_386
+    21300774: mario2tiles_387
+    21300776: mario2tiles_388
+    21300778: mario2tiles_389
+    21300780: mario2tiles_390
+    21300782: mario2tiles_391
+    21300784: mario2tiles_392
+    21300786: mario2tiles_393
+    21300788: mario2tiles_394
+    21300790: mario2tiles_395
+    21300792: mario2tiles_396
+    21300794: mario2tiles_397
+    21300796: mario2tiles_398
+    21300798: mario2tiles_399
+    21300800: mario2tiles_400
+    21300802: mario2tiles_401
+    21300804: mario2tiles_402
+    21300806: mario2tiles_403
+    21300808: mario2tiles_404
+    21300810: mario2tiles_405
+    21300812: mario2tiles_406
+    21300814: mario2tiles_407
+    21300816: mario2tiles_408
+    21300818: mario2tiles_409
+    21300820: mario2tiles_410
+    21300822: mario2tiles_411
+    21300824: mario2tiles_412
+    21300826: mario2tiles_413
+    21300828: mario2tiles_414
+    21300830: mario2tiles_415
+    21300832: mario2tiles_416
+    21300834: mario2tiles_417
+    21300836: mario2tiles_418
+    21300838: mario2tiles_419
+    21300840: mario2tiles_420
+    21300842: mario2tiles_421
+    21300844: mario2tiles_422
+    21300846: mario2tiles_423
+    21300848: mario2tiles_424
+    21300850: mario2tiles_425
+    21300852: mario2tiles_426
+    21300854: mario2tiles_427
+    21300856: mario2tiles_428
+    21300858: mario2tiles_429
+    21300860: mario2tiles_430
+    21300862: mario2tiles_431
+    21300864: mario2tiles_432
+    21300866: mario2tiles_433
+    21300868: mario2tiles_434
+    21300870: mario2tiles_435
+    21300872: mario2tiles_436
+    21300874: mario2tiles_437
+    21300876: mario2tiles_438
+    21300878: mario2tiles_439
+    21300880: mario2tiles_440
+    21300882: mario2tiles_441
+    21300884: mario2tiles_442
+    21300886: mario2tiles_443
+    21300888: mario2tiles_444
+    21300890: mario2tiles_445
+    21300892: mario2tiles_446
+    21300894: mario2tiles_447
+    21300896: mario2tiles_448
+    21300898: mario2tiles_449
+    21300900: mario2tiles_450
+    21300902: mario2tiles_451
+    21300904: mario2tiles_452
+    21300906: mario2tiles_453
+    21300908: mario2tiles_454
+    21300910: mario2tiles_455
+    21300912: mario2tiles_456
+    21300914: mario2tiles_457
+    21300916: mario2tiles_458
+    21300918: mario2tiles_459
+    21300920: mario2tiles_460
+    21300922: mario2tiles_461
+    21300924: mario2tiles_462
+    21300926: mario2tiles_463
+    21300928: mario2tiles_464
+    21300930: mario2tiles_465
+    21300932: mario2tiles_466
+    21300934: mario2tiles_467
+    21300936: mario2tiles_468
+    21300938: mario2tiles_469
+    21300940: mario2tiles_470
+    21300942: mario2tiles_471
+    21300944: mario2tiles_472
+    21300946: mario2tiles_473
+    21300948: mario2tiles_474
+    21300950: mario2tiles_475
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: mario2tiles_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 462
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 462
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_2
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 462
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_3
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 462
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_4
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 462
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_5
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 462
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_6
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 462
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_7
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 462
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_8
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 462
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_9
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 462
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_10
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 462
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_11
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 462
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_12
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 462
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_13
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 462
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_14
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 462
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_15
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 462
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_16
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 462
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_17
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 462
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_18
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 462
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_19
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 462
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_20
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_21
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_22
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_23
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_24
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_25
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_26
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_27
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_28
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_29
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_30
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_31
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_32
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_33
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_34
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_35
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_36
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_37
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_38
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_39
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_40
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 428
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_41
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 428
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_42
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 428
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_43
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 428
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_44
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 428
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_45
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 428
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_46
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 428
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_47
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 428
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_48
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 428
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_49
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 428
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_50
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 428
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_51
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 428
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_52
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 428
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_53
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 428
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_54
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 428
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_55
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 428
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_56
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 428
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_57
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 428
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_58
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 428
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_59
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 428
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_60
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 411
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_61
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 411
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_62
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 411
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_63
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 411
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_64
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 411
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_65
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 411
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_66
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 411
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_67
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 411
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_68
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 411
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_69
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 411
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_70
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 411
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_71
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 411
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_72
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 411
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_73
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 411
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_74
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 411
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_75
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 411
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_76
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 411
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_77
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 411
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_78
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 412
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_79
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 414
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_80
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 394
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_81
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 394
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_82
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 394
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_83
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 398
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_84
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 395
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_85
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 395
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_86
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 394
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_87
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 394
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_88
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 394
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_89
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 394
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_90
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 394
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_91
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 394
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_92
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 394
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_93
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 394
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_94
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 394
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_95
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 394
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_96
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 394
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_97
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 394
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_98
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 394
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_99
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 394
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_100
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 377
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_101
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_102
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 377
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_103
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_104
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_105
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_106
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_107
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_108
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_109
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_110
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_111
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_112
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_113
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_114
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_115
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_116
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_117
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_118
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 377
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_119
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 377
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_120
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 360
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_121
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 360
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_122
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 360
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_123
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 360
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_124
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 360
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_125
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 360
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_126
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 360
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_127
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 360
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_128
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 360
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_129
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 360
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_130
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 360
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_131
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 360
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_132
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 360
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_133
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 360
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_134
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 360
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_135
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 360
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_136
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 360
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_137
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 360
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_138
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 343
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_139
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 343
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_140
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 343
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_141
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 343
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_142
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 343
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_143
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 343
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_144
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 343
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_145
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 343
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_146
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 343
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_147
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 343
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_148
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 343
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_149
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 343
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_150
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 343
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_151
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 343
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_152
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 343
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_153
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 343
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_154
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 343
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_155
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 343
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_156
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 343
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_157
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 326
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_158
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 326
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_159
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 326
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_160
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 326
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_161
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 326
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_162
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 326
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_163
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 326
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_164
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 326
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_165
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 326
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_166
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 326
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_167
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 326
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_168
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 326
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_169
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 326
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_170
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 326
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_171
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 326
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_172
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 326
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_173
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 326
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_174
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 326
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_175
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 326
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_176
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 309
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_177
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 309
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_178
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 309
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_179
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 309
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_180
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 309
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_181
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 309
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_182
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 309
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_183
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 309
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_184
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 309
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_185
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 309
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_186
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 309
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_187
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 309
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_188
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 309
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_189
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 309
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_190
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 309
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_191
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 309
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_192
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 309
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_193
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 309
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_194
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 309
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_195
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 309
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_196
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 292
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_197
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 292
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_198
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 292
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_199
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 292
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_200
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 292
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_201
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 292
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_202
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 292
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_203
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 292
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_204
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 292
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_205
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 292
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_206
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 292
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_207
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 292
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_208
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 292
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_209
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 292
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_210
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 292
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_211
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 292
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_212
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 292
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_213
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 292
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_214
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 292
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_215
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 292
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_216
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 275
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_217
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 275
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_218
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 275
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_219
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 275
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_220
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 275
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_221
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 275
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_222
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 275
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_223
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 275
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_224
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 275
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_225
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 275
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_226
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 275
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_227
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 275
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_228
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 275
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_229
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 275
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_230
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 275
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_231
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 275
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_232
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 275
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_233
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 275
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_234
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 275
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_235
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 258
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_236
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 258
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_237
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 258
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_238
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 258
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_239
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 258
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_240
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 258
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_241
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 258
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_242
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 258
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_243
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 258
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_244
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 258
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_245
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 258
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_246
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 258
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_247
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 258
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_248
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 258
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_249
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 258
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_250
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 258
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_251
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 258
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_252
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 258
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_253
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 258
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_254
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_255
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_256
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_257
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_258
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 241
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_259
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 241
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_260
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_261
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_262
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 241
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_263
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 241
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_264
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_265
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_266
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_267
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_268
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_269
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_270
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_271
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_272
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_273
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_274
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_275
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_276
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_277
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_278
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_279
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_280
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_281
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_282
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_283
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_284
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_285
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_286
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_287
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_288
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_289
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 207
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_290
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 207
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_291
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 207
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_292
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 207
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_293
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 207
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_294
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 207
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_295
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 207
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_296
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 207
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_297
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 207
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_298
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 207
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_299
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 207
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_300
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 207
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_301
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 207
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_302
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 207
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_303
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 207
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_304
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 207
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_305
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 207
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_306
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 207
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_307
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 207
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_308
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 207
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_309
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 190
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_310
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 190
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_311
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 190
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_312
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 190
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_313
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 190
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_314
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 190
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_315
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 190
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_316
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 190
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_317
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 190
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_318
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 190
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_319
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 190
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_320
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 190
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_321
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 190
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_322
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 190
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_323
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 190
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_324
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 190
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_325
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 190
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_326
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 190
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_327
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 190
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_328
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 190
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_329
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_330
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_331
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_332
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_333
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_334
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_335
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_336
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_337
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_338
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_339
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_340
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_341
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_342
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_343
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_344
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_345
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_346
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_347
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_348
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_349
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 156
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_350
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 156
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_351
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 156
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_352
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 156
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_353
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 156
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_354
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 156
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_355
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 156
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_356
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 156
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_357
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 156
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_358
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 156
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_359
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 156
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_360
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 156
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_361
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 164
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_362
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 164
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_363
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 156
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_364
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 164
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_365
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 156
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_366
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 156
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_367
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 156
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_368
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_369
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_370
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_371
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_372
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_373
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_374
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_375
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_376
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_377
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_378
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_379
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 139
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_380
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_381
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 139
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_382
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 122
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_383
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 122
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_384
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 122
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_385
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 122
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_386
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 122
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_387
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 122
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_388
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 122
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_389
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 122
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_390
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 131
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_391
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 122
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_392
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 122
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_393
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 122
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_394
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 131
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_395
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 122
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_396
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 122
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_397
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 122
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_398
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 122
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_399
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 122
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_400
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 122
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_401
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 105
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_402
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 105
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_403
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 105
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_404
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 105
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_405
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 105
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_406
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 105
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_407
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 105
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_408
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 113
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_409
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 113
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_410
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 113
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_411
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 113
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_412
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 105
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_413
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 105
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_414
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 105
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_415
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 105
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_416
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 105
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_417
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 105
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_418
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 105
+        width: 4
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_419
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_420
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_421
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_422
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_423
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_424
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_425
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_426
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_427
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_428
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 88
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_429
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 88
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_430
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 88
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_431
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 88
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_432
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 88
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_433
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 88
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_434
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 88
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_435
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 88
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_436
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 88
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_437
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 88
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_438
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 88
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_439
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 88
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_440
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 88
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_441
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_442
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_443
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_444
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 76
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_445
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_446
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_447
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 76
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_448
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_449
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_450
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_451
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_452
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_453
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_454
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_455
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_456
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 71
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_457
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 71
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_458
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 71
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_459
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 71
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_460
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 71
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_461
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 71
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_462
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 71
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_463
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 71
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_464
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_465
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_466
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_467
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_468
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_469
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_470
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_471
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_472
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_473
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_474
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mario2tiles_475
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

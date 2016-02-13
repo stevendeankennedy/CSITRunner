@@ -49,11 +49,13 @@ public class Runner : MonoBehaviour
         isR = false;
 
         // move ---------------------------------------------
+        // don't go backwards...
         if (speed > 0) {
             speed -= decelFactor;
             if (speed < 0)
                 speed = 0f;
         }
+        // don't go over max speed
         if (speed > maxSpeed)
         {
             speed = maxSpeed;

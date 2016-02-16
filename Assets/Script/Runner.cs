@@ -80,4 +80,9 @@ public class Runner : MonoBehaviour
         if (R)
             isR = true;
     }
+
+    void OnTriggerEnter()
+    {
+        Debug.Log("Finish!");
+    }
 }

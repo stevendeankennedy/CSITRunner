@@ -7,12 +7,13 @@ using System.Collections.Generic;
 **/
 public class GroundManager : MonoBehaviour {
 
-    public static int cacheSize = 100;
-    public static int nActives = 50;
+    public static int cacheSize = 10;
+    public static int nActives = 10;
 
     public int tileSize = 10;
 
     public Transform[] groundPrefabs = new Transform[1];
+    public Transform finishPrefab;
 
     LinkedList<Transform> cache;    // inactive tiles
     LinkedList<Transform> actives;  // active tiles
@@ -34,19 +35,24 @@ public class GroundManager : MonoBehaviour {
             t.gameObject.SetActive(false);
             cache.AddLast(t);
         }
+        Transform last = Instantiate<Transform>(finishPrefab);
+        last.SetParent(transform);
+        finishPrefab.gameObject.SetActive(false);
+        cache.AddLast(last);
         Debug.Log("GroundManager Ready");
     }
 
 	// initialization
 	void Start () {
         // activate starting tiles
-	    for (int i=0; i<nActives; i++)
+	    for (int i=0; i<nActives + 1; i++) // nActives + 1 due to finish line.
         {
             Transform t = cache.First.Value;
             Vector3 pos = new Vector3(0f, 0f, i * tileSize);
             t.localPosition = pos;
             t.gameObject.SetActive(true);
             cache.RemoveFirst();
+            actives.AddLast(t);
         }
 	}
 	

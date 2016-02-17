@@ -5,7 +5,7 @@ public class EditorHelper : MonoBehaviour {
 
     public GroundManager gm;
 	
-    void OnDrawGizmosSelected()
+    void OnDrawGizmos()
     {
         Gizmos.color = Color.green;
         for (int i=0; i<GroundManager.nActives; i++)

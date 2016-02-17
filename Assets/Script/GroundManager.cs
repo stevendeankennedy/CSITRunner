@@ -28,9 +28,10 @@ public class GroundManager : MonoBehaviour {
         // fill up cache with instantiated tiles from prefabs
         for(int i=0; i<cacheSize; i++)
         {
-            //TODO: Currently only uses first prefab from collection.
-            //  Add randomizer when more prefabs are created
-            Transform t = Instantiate<Transform>(groundPrefabs[0]);
+            //Randomize tiles
+            int R = Random.Range(0, groundPrefabs.Length);
+            Debug.Log(R);
+            Transform t = Instantiate<Transform>(groundPrefabs[R]);
             t.SetParent(transform); // keep tiles as children of this
             t.gameObject.SetActive(false);
             cache.AddLast(t);

@@ -80,4 +80,11 @@ public class Runner : MonoBehaviour
         if (R)
             isR = true;
     }
+
+    void OnTriggerEnter()
+    {
+        Debug.Log(name + " wins!");
+        UIUpdater ui = UIUpdater.instance;
+        ui.showWinner(transform.position);
+    }
 }

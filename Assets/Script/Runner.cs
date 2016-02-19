@@ -51,9 +51,13 @@ public class Runner : MonoBehaviour
         // move ---------------------------------------------
         // don't go backwards...
         if (speed > 0) {
+            anim.SetBool("Moving", true);
             speed -= decelFactor;
-            if (speed < 0)
+            if (speed < 0) {
                 speed = 0f;
+                anim.SetBool("Moving", false);
+            }
+                
         }
         // don't go over max speed
         if (speed > maxSpeed)

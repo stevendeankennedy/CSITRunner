@@ -1,0 +1,168 @@
+Mono path[0] = 'C:/Users/Kalthose/Documents/CSITRunner/Test_Data/Managed'
+Mono path[1] = 'C:/Users/Kalthose/Documents/CSITRunner/Test_Data/Mono'
+Mono config path = 'C:/Users/Kalthose/Documents/CSITRunner/Test_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/Kalthose/Documents/CSITRunner/Test_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55440
+Multi-casting "[IP] 10.0.0.208 [Port] 55440 [Flags] 2 [Guid] 4116225534 [EditorId] 4283272695 [Version] 1048832 [Id] WindowsPlayer(Build776) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [10.0.0.208:55440]
+Initialize engine version: 5.3.2f1 (e87ab445ead0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960 (ID=0x1401)
+    Vendor:   NVIDIA
+    VRAM:     1969 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Kalthose\Documents\CSITRunner\Test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Kalthose\Documents\CSITRunner\Test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Kalthose\Documents\CSITRunner\Test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Kalthose\Documents\CSITRunner\Test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Kalthose\Documents\CSITRunner\Test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Kalthose\Documents\CSITRunner\Test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Kalthose\Documents\CSITRunner\Test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Kalthose\Documents\CSITRunner\Test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.036 seconds
+Platform assembly: C:\Users\Kalthose\Documents\CSITRunner\Test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Kalthose\Documents\CSITRunner\Test_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.601514 ms
+GroundManager Awake
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GroundManager:Awake() (at C:\Users\Kalthose\Documents\CSITRunner\Assets\Script\GroundManager.cs:24)
+ 
+(Filename: C:/Users/Kalthose/Documents/CSITRunner/Assets/Script/GroundManager.cs Line: 24)
+
+1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GroundManager:Awake() (at C:\Users\Kalthose\Documents\CSITRunner\Assets\Script\GroundManager.cs:33)
+ 
+(Filename: C:/Users/Kalthose/Documents/CSITRunner/Assets/Script/GroundManager.cs Line: 33)
+
+2
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GroundManager:Awake() (at C:\Users\Kalthose\Documents\CSITRunner\Assets\Script\GroundManager.cs:33)
+ 
+(Filename: C:/Users/Kalthose/Documents/CSITRunner/Assets/Script/GroundManager.cs Line: 33)
+
+2
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GroundManager:Awake() (at C:\Users\Kalthose\Documents\CSITRunner\Assets\Script\GroundManager.cs:33)
+ 
+(Filename: C:/Users/Kalthose/Documents/CSITRunner/Assets/Script/GroundManager.cs Line: 33)
+
+1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GroundManager:Awake() (at C:\Users\Kalthose\Documents\CSITRunner\Assets\Script\GroundManager.cs:33)
+ 
+(Filename: C:/Users/Kalthose/Documents/CSITRunner/Assets/Script/GroundManager.cs Line: 33)
+
+0
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GroundManager:Awake() (at C:\Users\Kalthose\Documents\CSITRunner\Assets\Script\GroundManager.cs:33)
+ 
+(Filename: C:/Users/Kalthose/Documents/CSITRunner/Assets/Script/GroundManager.cs Line: 33)
+
+1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GroundManager:Awake() (at C:\Users\Kalthose\Documents\CSITRunner\Assets\Script\GroundManager.cs:33)
+ 
+(Filename: C:/Users/Kalthose/Documents/CSITRunner/Assets/Script/GroundManager.cs Line: 33)
+
+1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GroundManager:Awake() (at C:\Users\Kalthose\Documents\CSITRunner\Assets\Script\GroundManager.cs:33)
+ 
+(Filename: C:/Users/Kalthose/Documents/CSITRunner/Assets/Script/GroundManager.cs Line: 33)
+
+1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GroundManager:Awake() (at C:\Users\Kalthose\Documents\CSITRunner\Assets\Script\GroundManager.cs:33)
+ 
+(Filename: C:/Users/Kalthose/Documents/CSITRunner/Assets/Script/GroundManager.cs Line: 33)
+
+2
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GroundManager:Awake() (at C:\Users\Kalthose\Documents\CSITRunner\Assets\Script\GroundManager.cs:33)
+ 
+(Filename: C:/Users/Kalthose/Documents/CSITRunner/Assets/Script/GroundManager.cs Line: 33)
+
+0
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GroundManager:Awake() (at C:\Users\Kalthose\Documents\CSITRunner\Assets\Script\GroundManager.cs:33)
+ 
+(Filename: C:/Users/Kalthose/Documents/CSITRunner/Assets/Script/GroundManager.cs Line: 33)
+
+GroundManager Ready
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GroundManager:Awake() (at C:\Users\Kalthose\Documents\CSITRunner\Assets\Script\GroundManager.cs:43)
+ 
+(Filename: C:/Users/Kalthose/Documents/CSITRunner/Assets/Script/GroundManager.cs Line: 43)
+
+Starting Input
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+InputHandler:Start() (at C:\Users\Kalthose\Documents\CSITRunner\Assets\Script\InputHandler.cs:14)
+ 
+(Filename: C:/Users/Kalthose/Documents/CSITRunner/Assets/Script/InputHandler.cs Line: 14)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 2c08 -> priority: 1 
+Player1 wins!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Runner:OnTriggerEnter() (at C:\Users\Kalthose\Documents\CSITRunner\Assets\Script\Runner.cs:90)
+ 
+(Filename: C:/Users/Kalthose/Documents/CSITRunner/Assets/Script/Runner.cs Line: 90)
+
+Running Lan wins!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Runner:OnTriggerEnter() (at C:\Users\Kalthose\Documents\CSITRunner\Assets\Script\Runner.cs:90)
+ 
+(Filename: C:/Users/Kalthose/Documents/CSITRunner/Assets/Script/Runner.cs Line: 90)
+

@@ -35,7 +35,6 @@ public class Runner : MonoBehaviour
         else if (isL)
         {
             Step("doStepLeft");
-
         }
         else if (isR)
         {
@@ -91,9 +90,9 @@ public class Runner : MonoBehaviour
 
     void OnTriggerEnter()
     {
-        Debug.Log(name + " wins!");
-        UIUpdater ui = UIUpdater.instance;
-        ui.ShowWinner(transform.position);
+        // TODO: This needs fleshed out a lot
+        GameManager gm = GameManager.instance;
+        gm.CrossFinishLine(this);   
     }
 
     public Stats Stats()

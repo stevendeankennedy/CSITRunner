@@ -22,4 +22,9 @@
     {
         return steps * stepSize;
     }
+
+    public override string ToString()
+    {
+        return "Didn't finish ToString...";
+    }
 }

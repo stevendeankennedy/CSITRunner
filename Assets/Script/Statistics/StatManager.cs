@@ -8,16 +8,15 @@ public class StatManager : MonoBehaviour {
 
     private StatOut statOutput;
 
-    void Awake()
-    {
-        statOutput = gameObject.AddComponent<StatConsoleOut>();
-    }
-
+    /**
+        Register the player who's stats we want to manage.
+    **/
     public bool Register(params Runner[] players)
     {
         // no room
         if (stats != null)
         {
+            Debug.Log("Could not register.");
             return false;
         }
 
@@ -27,14 +26,18 @@ public class StatManager : MonoBehaviour {
         {
             stats[i] = players[i].Stats();
         }
+        statOutput = gameObject.AddComponent<StatConsoleOut>();
+        Debug.Log("Registered player stats");
+
         return true;
     }
 
     public void DisplayAll()
     {
+        print("Display -------------");
         for (int i=0; i<stats.Length; i++)
         {
-            statOutput.Display("p" + i + ":" + stats[i].GetDistance());
+            statOutput.Display("p" + (i+1) + ":" + stats[i].GetDistance());
         }
     }
 }

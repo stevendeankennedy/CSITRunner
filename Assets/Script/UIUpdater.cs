@@ -38,7 +38,7 @@ public class UIUpdater : MonoBehaviour {
         p2Speed.text = p2.speed.ToString();
 	}
 
-    public void showWinner(Vector3 pos)
+    public void ShowWinner(Vector3 pos)
     {
         winMessage.gameObject.SetActive(true);
     }

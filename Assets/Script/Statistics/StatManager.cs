@@ -6,16 +6,14 @@ public class StatManager : MonoBehaviour {
     Stats[] stats;
     private int count;
 
-	// Use this for initialization
-	void Start () {
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    private StatOut statOutput;
 
-    public bool register(params Runner[] players)
+    void Awake()
+    {
+        statOutput = gameObject.AddComponent<StatConsoleOut>();
+    }
+
+    public bool Register(params Runner[] players)
     {
         // no room
         if (stats != null)
@@ -27,8 +25,16 @@ public class StatManager : MonoBehaviour {
         stats = new Stats[players.Length];
         for (int i=0; i<players.Length; i++)
         {
-            stats[i] = players[i].stats();
+            stats[i] = players[i].Stats();
         }
         return true;
+    }
+
+    public void DisplayAll()
+    {
+        for (int i=0; i<stats.Length; i++)
+        {
+            statOutput.Display("p" + i + ":" + stats[i].GetDistance());
+        }
     }
 }

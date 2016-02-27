@@ -34,12 +34,12 @@ public class Runner : MonoBehaviour
         }
         else if (isL)
         {
-            step("doStepLeft");
+            Step("doStepLeft");
 
         }
         else if (isR)
         {
-            step("doStepRight");
+            Step("doStepRight");
         }
 
         isL = false;
@@ -64,24 +64,24 @@ public class Runner : MonoBehaviour
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
     }
 
-    void step(string animTrigger)
+    void Step(string animTrigger)
     {
         anim.SetTrigger(animTrigger);
         speed += accelFactor;
-        myStats.addStep();
+        myStats.AddStep();
     }
 
-    public void runLeft()
+    public void RunLeft()
     {
         isL = true;
     }
 
-    public void runRight()
+    public void RunRight()
     {
         isR = true;
     }
 
-    public void run(bool L, bool R)
+    public void Run(bool L, bool R)
     {
         if (L)
             isL = true;
@@ -93,10 +93,10 @@ public class Runner : MonoBehaviour
     {
         Debug.Log(name + " wins!");
         UIUpdater ui = UIUpdater.instance;
-        ui.showWinner(transform.position);
+        ui.ShowWinner(transform.position);
     }
 
-    public Stats stats()
+    public Stats Stats()
     {
         return myStats;
     }

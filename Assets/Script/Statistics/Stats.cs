@@ -10,12 +10,15 @@
         stepSize = 2.5f;
     }
 
-    public void addStep()
+    public void AddStep()
     {
         steps++;
     }
 
-    public float getDistance()
+    /**
+        Number of steps * step size = est. distance travelled
+    */
+    public float GetDistance()
     {
         return steps * stepSize;
     }

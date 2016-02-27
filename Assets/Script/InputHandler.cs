@@ -25,7 +25,7 @@ public class InputHandler : MonoBehaviour
         else if (x > 0)
             runRight = true;
 
-        p1.run(runLeft, runRight);
+        p1.Run(runLeft, runRight);
 
         // player 2 ------------------------------
         runLeft = false;
@@ -35,10 +35,10 @@ public class InputHandler : MonoBehaviour
             runLeft = true;
         else if (x > 0)
             runRight = true;
-        p2.run(runLeft, runRight);
+        p2.Run(runLeft, runRight);
     }
 
-    public void setPlayers(Runner p1, Runner p2)
+    public void SetPlayers(Runner p1, Runner p2)
     {
         this.p1 = p1;
         this.p2 = p2;

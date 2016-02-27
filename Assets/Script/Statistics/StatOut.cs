@@ -1,6 +1,6 @@
 ﻿public interface StatOut {
 
-    void add(Stats stats);
+    //void add(Stats stats);
 
-    void display(string msg);
+    void Display(string msg);
 }

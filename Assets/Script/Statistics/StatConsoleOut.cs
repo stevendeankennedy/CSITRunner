@@ -4,24 +4,14 @@ using System;
 
 public class StatConsoleOut : MonoBehaviour, StatOut {
 
-
-    // Use this for initialization
-    void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
-
     /** StatOut Interface methods ------------------ **/
-    public void add(Stats stats)
-    {
-        throw new NotImplementedException();
-    }
+    //public void add(Stats stats)
+    //{
+    //    Debug.Log("Stat printing");
+    //    print(stats.getDistance());
+    //}
 
-    public void display(string msg)
+    public void Display(string msg)
     {
         print(msg);
     }

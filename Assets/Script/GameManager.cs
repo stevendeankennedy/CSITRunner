@@ -24,10 +24,13 @@ public class GameManager : MonoBehaviour {
 
     private UIUpdater uiUpdater;
     private StatManager sm;
+    private InputHandler ih;
 
 	// Use this for initialization
 	void Start () {
-        InputHandler ih = gameObject.AddComponent<InputHandler>();
+        player1.player = 1;
+        player2.player = 2;
+        ih = gameObject.AddComponent<InputHandler>();
         ih.SetPlayers(player1, player2);
 
         sm = gameObject.AddComponent<StatManager>();
@@ -46,6 +49,7 @@ public class GameManager : MonoBehaviour {
             sm.Register(player1, player2);
         }
         finishCount = finishCount + 1;
+        ih.SetInput(r.player, false); // turn off input
     }
 
     void FixedUpdate()

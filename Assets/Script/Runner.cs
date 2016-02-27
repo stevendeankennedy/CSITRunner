@@ -17,6 +17,20 @@ public class Runner : MonoBehaviour
     private Animator anim;
     private Stats myStats;
 
+    private int _player;
+    public int player
+    {
+        get
+        {
+            return _player;
+        }
+
+        set
+        {
+            _player = value;
+        }
+    }
+
     // Use this for initialization
     void Start()
     {

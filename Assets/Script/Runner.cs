@@ -3,8 +3,6 @@ using System.Collections;
 
 /**
     Basic runner.
-
-    TODO: Instead of forcing alternating steps, maybe just treat all steps the same.
 **/
 public class Runner : MonoBehaviour
 {
@@ -17,11 +15,13 @@ public class Runner : MonoBehaviour
     private bool isR;
 
     private Animator anim;
+    private Stats myStats;
 
     // Use this for initialization
     void Start()
     {
         anim = GetComponent<Animator>();
+        myStats = new Stats();
     }
 
     // Update is called once per frame
@@ -34,15 +34,12 @@ public class Runner : MonoBehaviour
         }
         else if (isL)
         {
-            anim.SetTrigger("doStepLeft");
-            speed += accelFactor;
+            step("doStepLeft");
 
         }
         else if (isR)
         {
-            anim.SetTrigger("doStepRight");
-            speed += accelFactor;
-
+            step("doStepRight");
         }
 
         isL = false;
@@ -65,6 +62,13 @@ public class Runner : MonoBehaviour
             speed = maxSpeed;
         }
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
+    }
+
+    void step(string animTrigger)
+    {
+        anim.SetTrigger(animTrigger);
+        speed += accelFactor;
+        myStats.addStep();
     }
 
     public void runLeft()
@@ -90,5 +94,10 @@ public class Runner : MonoBehaviour
         Debug.Log(name + " wins!");
         UIUpdater ui = UIUpdater.instance;
         ui.showWinner(transform.position);
+    }
+
+    public Stats stats()
+    {
+        return myStats;
     }
 }

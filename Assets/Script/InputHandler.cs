@@ -4,9 +4,8 @@ using System.Collections;
 public class InputHandler : MonoBehaviour
 {
 
-    public Runner p1;
-    public Runner p2;
-
+    Runner p1;
+    Runner p2;
 
     // Use this for initialization
     void Start()
@@ -37,5 +36,11 @@ public class InputHandler : MonoBehaviour
         else if (x > 0)
             runRight = true;
         p2.run(runLeft, runRight);
+    }
+
+    public void setPlayers(Runner p1, Runner p2)
+    {
+        this.p1 = p1;
+        this.p2 = p2;
     }
 }

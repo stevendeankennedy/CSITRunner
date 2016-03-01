@@ -3,8 +3,6 @@ using System.Collections;
 
 /**
     Basic runner.
-
-    TODO: Instead of forcing alternating steps, maybe just treat all steps the same.
 **/
 public class Runner : MonoBehaviour
 {
@@ -17,11 +15,27 @@ public class Runner : MonoBehaviour
     private bool isR;
 
     private Animator anim;
+    private Stats myStats;
+
+    private int _player;
+    public int player
+    {
+        get
+        {
+            return _player;
+        }
+
+        set
+        {
+            _player = value;
+        }
+    }
 
     // Use this for initialization
     void Start()
     {
         anim = GetComponent<Animator>();
+        myStats = new Stats();
     }
 
     // Update is called once per frame
@@ -34,15 +48,11 @@ public class Runner : MonoBehaviour
         }
         else if (isL)
         {
-            anim.SetTrigger("doStepLeft");
-            speed += accelFactor;
-
+            Step("doStepLeft");
         }
         else if (isR)
         {
-            anim.SetTrigger("doStepRight");
-            speed += accelFactor;
-
+            Step("doStepRight");
         }
 
         isL = false;
@@ -67,17 +77,24 @@ public class Runner : MonoBehaviour
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
     }
 
-    public void runLeft()
+    void Step(string animTrigger)
+    {
+        anim.SetTrigger(animTrigger);
+        speed += accelFactor;
+        myStats.AddStep();
+    }
+
+    public void RunLeft()
     {
         isL = true;
     }
 
-    public void runRight()
+    public void RunRight()
     {
         isR = true;
     }
 
-    public void run(bool L, bool R)
+    public void Run(bool L, bool R)
     {
         if (L)
             isL = true;
@@ -87,8 +104,13 @@ public class Runner : MonoBehaviour
 
     void OnTriggerEnter()
     {
-        Debug.Log(name + " wins!");
-        UIUpdater ui = UIUpdater.instance;
-        ui.showWinner(transform.position);
+        // TODO: This needs fleshed out a lot
+        GameManager gm = GameManager.instance;
+        gm.CrossFinishLine(this);   
+    }
+
+    public Stats Stats()
+    {
+        return myStats;
     }
 }

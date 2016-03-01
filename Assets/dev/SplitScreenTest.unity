@@ -184,7 +184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runner: {fileID: 1285182732}
-  followDistance: 8
+  followDistance: 10
 --- !u!1 &474550718
 GameObject:
   m_ObjectHideFlags: 0
@@ -193,27 +193,14 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 474550720}
-  - 114: {fileID: 474550719}
+  - 114: {fileID: 474550721}
   m_Layer: 0
-  m_Name: Stuff
+  m_Name: GameStuff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &474550719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 474550718}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b689181ce07482b4386b835987153cff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  p1: {fileID: 1124580956}
-  p2: {fileID: 1285182729}
 --- !u!4 &474550720
 Transform:
   m_ObjectHideFlags: 0
@@ -230,6 +217,19 @@ Transform:
   - {fileID: 76477018}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &474550721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 474550718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f94f02fcbca7f84c983cee9335dd6d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player1: {fileID: 1124580956}
+  player2: {fileID: 1285182729}
 --- !u!224 &603891277 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 22413098, guid: 0941b62ef35bae24bb150ff366a3c3ac,
@@ -704,7 +704,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runner: {fileID: 1124580961}
-  followDistance: 8
+  followDistance: 10
 --- !u!1 &1473310986
 GameObject:
   m_ObjectHideFlags: 0
@@ -955,6 +955,10 @@ Prefab:
     - target: {fileID: 11467224, guid: 4249c77e8b5fad94faaf2d83b59e1ef3, type: 2}
       propertyPath: maxSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 123502, guid: 4249c77e8b5fad94faaf2d83b59e1ef3, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4249c77e8b5fad94faaf2d83b59e1ef3, type: 2}

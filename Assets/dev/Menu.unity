@@ -1164,8 +1164,8 @@ MonoBehaviour:
   ARCADE: {fileID: 328605798}
   STATS: {fileID: 571893532}
   CHARSELECT1: {fileID: 322847698}
-  CHARSELECT2: {fileID: 0}
-  PROMPT: {fileID: 0}
+  CHARSELECT2: {fileID: 1473786364}
+  PROMPT: {fileID: 1601703091}
 --- !u!4 &875147695
 Transform:
   m_ObjectHideFlags: 0
@@ -2520,7 +2520,7 @@ GameObject:
   - 222: {fileID: 1601703092}
   - 114: {fileID: 1601703091}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Prompt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2540,7 +2540,7 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 54.81}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1601703091
@@ -2569,10 +2569,10 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Player 1 Choose your character!

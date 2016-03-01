@@ -30,7 +30,6 @@ public class GroundManager : MonoBehaviour {
         {
             //Randomize tiles
             int R = Random.Range(0, groundPrefabs.Length);
-            Debug.Log(R);
             Transform t = Instantiate<Transform>(groundPrefabs[R]);
             t.SetParent(transform); // keep tiles as children of this
             t.gameObject.SetActive(false);

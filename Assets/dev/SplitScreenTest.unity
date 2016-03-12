@@ -230,33 +230,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player1: {fileID: 1124580956}
   player2: {fileID: 1285182729}
+--- !u!1 &527212759 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 171952, guid: 0941b62ef35bae24bb150ff366a3c3ac, type: 2}
+  m_PrefabInternal: {fileID: 834244176}
+--- !u!114 &527212764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 527212759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c76e1adb73675114cbfe5f65e1b4715e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &603891277 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 22413098, guid: 0941b62ef35bae24bb150ff366a3c3ac,
     type: 2}
   m_PrefabInternal: {fileID: 834244176}
---- !u!1 &656463433 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 187418, guid: 7ebe8033c9ce0444bbb81923c6b626a5, type: 2}
-  m_PrefabInternal: {fileID: 1695399251}
---- !u!114 &656463434
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 656463433}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c6a7f7d412210c4595d9dd22742b8da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gm: {fileID: 656463435}
---- !u!114 &656463435 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11469118, guid: 7ebe8033c9ce0444bbb81923c6b626a5,
-    type: 2}
-  m_PrefabInternal: {fileID: 1695399251}
-  m_Script: {fileID: 11500000, guid: 2b091c5a35971a6419cf394096937777, type: 3}
 --- !u!1001 &834244176
 Prefab:
   m_ObjectHideFlags: 0
@@ -485,6 +478,79 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4249c77e8b5fad94faaf2d83b59e1ef3, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1111751343
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 1111751344}
+  - 222: {fileID: 1111751346}
+  - 114: {fileID: 1111751345}
+  m_Layer: 5
+  m_Name: Message
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1111751344
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1111751343}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 603891277}
+  m_RootOrder: 5
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 14}
+  m_SizeDelta: {x: 264, y: 80}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1111751345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1111751343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.1102941, g: 0.30050704, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 6ea2a6b8c74e12f4a9222b6e4dada719, type: 3}
+    m_FontSize: 64
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 64
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Ready!
+--- !u!222 &1111751346
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1111751343}
 --- !u!114 &1124580956 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11467224, guid: 4249c77e8b5fad94faaf2d83b59e1ef3,

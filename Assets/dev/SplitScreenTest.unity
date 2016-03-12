@@ -476,11 +476,39 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 492508, guid: 4249c77e8b5fad94faaf2d83b59e1ef3, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 123502, guid: 4249c77e8b5fad94faaf2d83b59e1ef3, type: 2}
       propertyPath: m_Name
       value: Player1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11467224, guid: 4249c77e8b5fad94faaf2d83b59e1ef3, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5458456, guid: 4249c77e8b5fad94faaf2d83b59e1ef3, type: 2}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5458456, guid: 4249c77e8b5fad94faaf2d83b59e1ef3, type: 2}
+      propertyPath: m_Constraints
+      value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 11467224, guid: 4249c77e8b5fad94faaf2d83b59e1ef3, type: 2}
+      propertyPath: accelFactor
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 11467224, guid: 4249c77e8b5fad94faaf2d83b59e1ef3, type: 2}
+      propertyPath: drag
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11467224, guid: 4249c77e8b5fad94faaf2d83b59e1ef3, type: 2}
+      propertyPath: force
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 6505132, guid: 4249c77e8b5fad94faaf2d83b59e1ef3, type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4249c77e8b5fad94faaf2d83b59e1ef3, type: 2}

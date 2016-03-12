@@ -6,17 +6,33 @@ using System.Collections;
 **/
 public class Runner : MonoBehaviour
 {
-    public float speed;
-    public float accelFactor;
-    public float decelFactor;
+    // constants
+    private const string IS_MOVING = "isMoving";
+    private const float ANIM_STOP = 0.05f;
+    
+    // Running stuff
+    private float _speed;
+    public float speed
+    {
+        get { return _speed; }
+        set { _speed = value; }
+    }
+    [Tooltip("Speeds runner up")]
+    public float force; // speed up
+    [Tooltip("Slows runner down")]
+    public float drag; // slow down
+    [Tooltip("This affects animation speed")]
     public float maxSpeed;
+    bool willRun;
 
-    private bool isL;
-    private bool isR;
-
+    // useful component references
     private Animator anim;
-    private Stats myStats;
+    private Rigidbody rb;
 
+    // stats
+    private Stats stats;
+
+    // player number
     private int _player;
     public int player
     {
@@ -35,82 +51,70 @@ public class Runner : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
-        myStats = new Stats();
+        rb = GetComponent<Rigidbody>();
+
+        stats = new Stats();
+
+        // set up for running
+        rb.drag = drag;
     }
 
     // Update is called once per frame
     void Update()
     {
         // animate ------------------------------------------
-        if (!isL && !isR)
+        if (anim.GetBool(IS_MOVING) == true)
         {
-            //anim.SetTrigger("doNothing");
+            // proportional animation speed
+            float animationSpeed = speed / maxSpeed;
+            animationSpeed = Mathf.Clamp(animationSpeed, 0.2f, 1f);
+            anim.speed = animationSpeed;
+            //if (speed < ANIM_STOP)
+            //    anim.SetBool(IS_MOVING, false);
         }
-        else if (isL)
-        {
-            Step("doStepLeft");
-        }
-        else if (isR)
-        {
-            Step("doStepRight");
-        }
-
-        isL = false;
-        isR = false;
 
         // move ---------------------------------------------
-        // don't go backwards...
-        if (speed > 0) {
-            anim.SetBool("Moving", true);
-            speed -= decelFactor;
-            if (speed < 0) {
-                speed = 0f;
-                anim.SetBool("Moving", false);
-            }
-                
-        }
-        // don't go over max speed
-        if (speed > maxSpeed)
+        if (willRun)
         {
-            speed = maxSpeed;
+            rb.AddForce(0, 0, force);
+            willRun = false;
         }
-        transform.Translate(Vector3.forward * Time.deltaTime * speed);
     }
 
-    void Step(string animTrigger)
+    void FixedUpdate()
     {
-        anim.SetTrigger(animTrigger);
-        speed += accelFactor;
-        myStats.AddStep();
+        speed = rb.velocity.z;
     }
 
-    public void RunLeft()
+    /**
+        Step forward and make sure to be animating
+    **/
+    void Step(string param)
     {
-        isL = true;
+        anim.SetBool(param, true);
+        stats.AddStep();
+
+        willRun = true; // trigger movement on update
     }
 
-    public void RunRight()
+    // Make a step forward
+    public void Step()
     {
-        isR = true;
+        Step(IS_MOVING);
     }
 
-    public void Run(bool L, bool R)
+    /**
+        Handle triggers.  Crossing the finish line
+    **/
+    void OnTriggerEnter(Collider other)
     {
-        if (L)
-            isL = true;
-        if (R)
-            isR = true;
-    }
-
-    void OnTriggerEnter()
-    {
-        // TODO: This needs fleshed out a lot
         GameManager gm = GameManager.instance;
-        gm.CrossFinishLine(this);   
+        if (other.CompareTag("Finish"))
+            gm.CrossFinishLine(this);   
     }
 
     public Stats Stats()
     {
-        return myStats;
+        return stats;
     }
 }

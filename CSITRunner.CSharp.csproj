@@ -63,23 +63,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\CrossScreenHelper.cs" />
-    <Compile Include="Assets\Script\Destroyer.cs" />
-    <Compile Include="Assets\Script\EditorHelper.cs" />
-    <Compile Include="Assets\Script\GameManager.cs" />
-    <Compile Include="Assets\Script\GroundManager.cs" />
-    <Compile Include="Assets\Script\InputHandler.cs" />
-    <Compile Include="Assets\Script\MenuMover.cs" />
-    <Compile Include="Assets\Script\MenuSpawner.cs" />
-    <Compile Include="Assets\Script\Runner.cs" />
-    <Compile Include="Assets\Script\RunnerCam.cs" />
+    <Compile Include="Assets\Script\Menu\MenuMover.cs" />
+    <Compile Include="Assets\Script\Menu\MenuSpawner.cs" />
+    <Compile Include="Assets\Script\Menu\menu.cs" />
+    <Compile Include="Assets\Script\Player\Runner.cs" />
+    <Compile Include="Assets\Script\Player\RunnerCam.cs" />
     <Compile Include="Assets\Script\Statistics\StatConsoleOut.cs" />
     <Compile Include="Assets\Script\Statistics\StatGUIOut.cs" />
     <Compile Include="Assets\Script\Statistics\StatManager.cs" />
     <Compile Include="Assets\Script\Statistics\StatOut.cs" />
     <Compile Include="Assets\Script\Statistics\Stats.cs" />
-    <Compile Include="Assets\Script\UIUpdater.cs" />
-    <Compile Include="Assets\Script\menu.cs" />
+    <Compile Include="Assets\Script\System\CrossScreenHelper.cs" />
+    <Compile Include="Assets\Script\System\EditorHelper.cs" />
+    <Compile Include="Assets\Script\System\GameManager.cs" />
+    <Compile Include="Assets\Script\System\GroundManager.cs" />
+    <Compile Include="Assets\Script\System\InputHandler.cs" />
+    <Compile Include="Assets\Script\System\UIUpdater.cs" />
+    <Compile Include="Assets\Script\Util\Destroyer.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

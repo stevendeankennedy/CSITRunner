@@ -44,8 +44,6 @@ public class InputHandler : MonoBehaviour
     {
         this.p1 = p1;
         this.p2 = p2;
-        doInputP1 = true;
-        doInputP2 = true;
     }
 
     /**
@@ -62,5 +60,12 @@ public class InputHandler : MonoBehaviour
         {
             doInputP2 = b;
         }
+    }
+
+    // Turn on all input
+    public void SetInputOnForAll()
+    {
+        doInputP1 = true;
+        doInputP2 = true;
     }
 }

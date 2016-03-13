@@ -194,6 +194,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 474550720}
   - 114: {fileID: 474550721}
+  - 114: {fileID: 474550719}
   m_Layer: 0
   m_Name: GameStuff
   m_TagString: Untagged
@@ -201,6 +202,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &474550719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 474550718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c76e1adb73675114cbfe5f65e1b4715e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countdown:
+  - Ready!
+  - Go!
+  tick: 2
+  textField: {fileID: 1111751345}
 --- !u!4 &474550720
 Transform:
   m_ObjectHideFlags: 0
@@ -230,21 +247,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player1: {fileID: 1124580956}
   player2: {fileID: 1285182729}
---- !u!1 &527212759 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 171952, guid: 0941b62ef35bae24bb150ff366a3c3ac, type: 2}
-  m_PrefabInternal: {fileID: 834244176}
---- !u!114 &527212764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 527212759}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c76e1adb73675114cbfe5f65e1b4715e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &603891277 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 22413098, guid: 0941b62ef35bae24bb150ff366a3c3ac,
@@ -353,6 +355,16 @@ Prefab:
       propertyPath: winMessage
       value: 
       objectReference: {fileID: 1473310987}
+    - target: {fileID: 11498356, guid: 0941b62ef35bae24bb150ff366a3c3ac, type: 2}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 6ea2a6b8c74e12f4a9222b6e4dada719,
+        type: 3}
+    - target: {fileID: 11450196, guid: 0941b62ef35bae24bb150ff366a3c3ac, type: 2}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 6ea2a6b8c74e12f4a9222b6e4dada719,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0941b62ef35bae24bb150ff366a3c3ac, type: 2}
   m_IsPrefabParent: 0
@@ -412,7 +424,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 6ea2a6b8c74e12f4a9222b6e4dada719, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
@@ -1065,7 +1077,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 6ea2a6b8c74e12f4a9222b6e4dada719, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0

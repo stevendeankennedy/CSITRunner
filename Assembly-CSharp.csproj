@@ -45,6 +45,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\Effects\Floaty.cs" />
+     <Compile Include="Assets\Script\Effects\FloatyFactory.cs" />
      <Compile Include="Assets\Script\Menu\MenuMover.cs" />
      <Compile Include="Assets\Script\Menu\MenuSpawner.cs" />
      <Compile Include="Assets\Script\Menu\menu.cs" />
@@ -62,6 +64,7 @@
      <Compile Include="Assets\Script\System\InputHandler.cs" />
      <Compile Include="Assets\Script\Util\Destroyer.cs" />
      <Compile Include="Assets\Script\ui\UIUpdater.cs" />
+     <None Include="Assets\Resources\sources.txt" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>

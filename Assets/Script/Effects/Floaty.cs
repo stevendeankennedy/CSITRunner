@@ -13,12 +13,22 @@ public class Floaty : MonoBehaviour {
     public float amplitude;
     [Tooltip("Wave width")]
     public float frequency;
-	
+
+	private SpriteRenderer renderer;
+	private Color randomColor;
+
+	void Start(){
+		renderer = GetComponent<SpriteRenderer>();
+	}
+
 	// Update is called once per frame
 	void Update () {
         transform.localPosition += amplitude * (Mathf.Sin(2 * Mathf.PI * frequency * Time.time) - Mathf.Sin(2 * Mathf.PI * frequency * (Time.time - Time.deltaTime))) * transform.up;
         Vector3 cRot = transform.rotation.eulerAngles;
         cRot += torque;
         transform.localRotation = Quaternion.Euler(cRot);
+
+		randomColor = new Color (Random.value * 10, Random.value * 10, Random.value * 10);
+		renderer.color = randomColor;
     }
 }

@@ -60,6 +60,6 @@ public class CrossScreenHelper : MonoBehaviour {
 
     //Called on Arcade button press. Will load the arcade mode of the game. I.E no character select. TODO[Matt] Make sure this isn't pointing at your test scene before pushing. Watch this not happen.
     public void ChangeLevelArcade() {
-        SceneManager.LoadScene("SplitScreenTest-Matt");
+        SceneManager.LoadScene("SplitScreenTest");
     }
 }

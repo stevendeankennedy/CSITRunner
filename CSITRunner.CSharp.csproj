@@ -63,7 +63,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\Effects\NumberFlier.cs" />
+    <Compile Include="Assets\Script\Effects\Floaty.cs" />
+    <Compile Include="Assets\Script\Effects\FloatyFactory.cs" />
     <Compile Include="Assets\Script\Menu\MenuMover.cs" />
     <Compile Include="Assets\Script\Menu\MenuSpawner.cs" />
     <Compile Include="Assets\Script\Menu\menu.cs" />

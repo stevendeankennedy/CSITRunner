@@ -25,6 +25,7 @@ public class GameManager : MonoBehaviour {
     private UIUpdater uiUpdater;
     private StatManager sm;
     private InputHandler ih;
+    //private FloatyFactory floatyFactory;
 
 	// Use this for initialization
 	void Start () {
@@ -35,10 +36,20 @@ public class GameManager : MonoBehaviour {
 
         sm = gameObject.AddComponent<StatManager>();
 
-        uiUpdater = FindObjectOfType<UIUpdater>(); // confirm: this better than static call?
+        uiUpdater = FindObjectOfType<UIUpdater>(); // TODO: Change this load...
 
         CountdownStart countdown = GetComponent<CountdownStart>();
         countdown.InputHandler = ih; // register ih
+
+        FloatyFactory fFact = gameObject.GetComponent<FloatyFactory>();
+        GameObject floatyContainer = new GameObject("AllFloaties");
+        Floaty[] Fs = fFact.GetAllFloaties();
+        Debug.Log("Length:" + Fs.Length);
+        for (int i=0; i<Fs.Length; i++)
+        {
+            Fs[i].transform.SetParent(floatyContainer.transform);
+        }
+        floatyContainer.transform.SetParent(gameObject.transform);
 	}
     
     public void CrossFinishLine(Runner r)

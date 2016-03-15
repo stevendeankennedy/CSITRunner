@@ -4,6 +4,9 @@ using System.Collections;
 public class InputHandler : MonoBehaviour
 {
 
+    const string P1_BUTTON = "p1Step";
+    const string P2_BUTTON = "p2Step";
+
     Runner p1;
     Runner p2;
 
@@ -19,32 +22,21 @@ public class InputHandler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        bool runLeft = false;
-        bool runRight = false;
-        float x = 0f;
-        // player 1 -----------------------------
+        // -- MAKEY compatible movement
+        // player 1
         if (doInputP1)
         {
-            x = Input.GetAxisRaw("Horizontal");
-            if (x < 0)
-                runLeft = true;
-            else if (x > 0)
-                runRight = true;
-
-            p1.Run(runLeft, runRight);
+            bool step = Input.GetButtonDown(P1_BUTTON);
+            if (step)
+                p1.Step();
         }
 
         // player 2 ------------------------------
         if (doInputP2)
         {
-            runLeft = false;
-            runRight = false;
-            x = Input.GetAxisRaw("p2Horz");
-            if (x < 0)
-                runLeft = true;
-            else if (x > 0)
-                runRight = true;
-            p2.Run(runLeft, runRight);
+            bool step = Input.GetButtonDown(P2_BUTTON);
+            if (step)
+                p2.Step();
         }
     }
 
@@ -52,8 +44,6 @@ public class InputHandler : MonoBehaviour
     {
         this.p1 = p1;
         this.p2 = p2;
-        doInputP1 = true;
-        doInputP2 = true;
     }
 
     /**
@@ -70,5 +60,12 @@ public class InputHandler : MonoBehaviour
         {
             doInputP2 = b;
         }
+    }
+
+    // Turn on all input
+    public void SetInputOnForAll()
+    {
+        doInputP1 = true;
+        doInputP2 = true;
     }
 }

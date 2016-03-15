@@ -45,7 +45,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 54
   m_CollisionDetection: 0
 --- !u!65 &6505132
 BoxCollider:
@@ -54,7 +54,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 123502}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.6, y: 2.4, z: 1}
@@ -87,9 +87,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a58b147507072064185ab6571d2b03ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
-  accelFactor: 0.8
-  decelFactor: 0.3
+  force: 800
+  drag: 2
   maxSpeed: 50
 --- !u!212 &21236498
 SpriteRenderer:

@@ -7,8 +7,8 @@ using System.Collections.Generic;
 **/
 public class GroundManager : MonoBehaviour {
 
-    public static int cacheSize = 10;
-    public static int nActives = 10;
+    public static int cacheSize = 20;
+    public static int nActives = 20;
 
     public int tileSize = 10;
 
@@ -55,9 +55,19 @@ public class GroundManager : MonoBehaviour {
             actives.AddLast(t);
         }
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+
+#if UNITY_EDITOR
+    /**
+        Useful help in Unity editor.  Don't do this at runtime.
+    **/
+    void OnDrawGizmos()
+    {
+        Gizmos.color = Color.green;
+        for (int i = 0; i < GroundManager.nActives; i++)
+        {
+            Vector3 pos = new Vector3(0, 0, i * tileSize);
+            Gizmos.DrawWireCube(pos, new Vector3(tileSize, 0.2f, tileSize));
+        }
+    }
+#endif
 }

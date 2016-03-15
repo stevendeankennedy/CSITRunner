@@ -36,6 +36,9 @@ public class GameManager : MonoBehaviour {
         sm = gameObject.AddComponent<StatManager>();
 
         uiUpdater = FindObjectOfType<UIUpdater>(); // confirm: this better than static call?
+
+        CountdownStart countdown = GetComponent<CountdownStart>();
+        countdown.InputHandler = ih; // register ih
 	}
     
     public void CrossFinishLine(Runner r)

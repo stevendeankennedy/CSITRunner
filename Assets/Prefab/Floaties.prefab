@@ -89,6 +89,8 @@ MonoBehaviour:
   torque: {x: 0, y: 2, z: 2}
   amplitude: 2
   frequency: 1
+  colorSwapTime: 0
+  timer: 0
 --- !u!212 &21234906
 SpriteRenderer:
   m_ObjectHideFlags: 1

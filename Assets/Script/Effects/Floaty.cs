@@ -14,11 +14,15 @@ public class Floaty : MonoBehaviour {
     [Tooltip("Wave width")]
     public float frequency;
 
+	[Tooltip("Color swap frequency")]
+	public float colorSwapTime;
+
 	private SpriteRenderer renderer;
 	private Color randomColor;
-
+	public float timer;
 	void Start(){
 		renderer = GetComponent<SpriteRenderer>();
+		randomColor = new Color (Random.value * 10, Random.value * 10, Random.value * 10);
 	}
 
 	// Update is called once per frame
@@ -28,7 +32,16 @@ public class Floaty : MonoBehaviour {
         cRot += torque;
         transform.localRotation = Quaternion.Euler(cRot);
 
-		randomColor = new Color (Random.value * 10, Random.value * 10, Random.value * 10);
-		renderer.color = randomColor;
+		timer += Time.deltaTime;
+
+		if (timer >= colorSwapTime) {
+			
+			randomColor = new Color (Random.value, Random.value, Random.value);
+			renderer.color = randomColor;
+			timer -= colorSwapTime;
+		} else {
+			
+		}
+
     }
 }

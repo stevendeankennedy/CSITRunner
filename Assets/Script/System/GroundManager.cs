@@ -7,8 +7,8 @@ using System.Collections.Generic;
 **/
 public class GroundManager : MonoBehaviour {
 
-    public static int cacheSize = 20;
-    public static int nActives = 20;
+    public static int cacheSize = 100;
+    public static int nActives = 100;
 
     public int tileSize = 10;
 

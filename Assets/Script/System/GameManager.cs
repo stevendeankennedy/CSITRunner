@@ -44,7 +44,6 @@ public class GameManager : MonoBehaviour {
         FloatyFactory fFact = gameObject.GetComponent<FloatyFactory>();
         GameObject floatyContainer = new GameObject("AllFloaties");
         Floaty[] Fs = fFact.GetAllFloaties();
-        Debug.Log("Length:" + Fs.Length);
         for (int i=0; i<Fs.Length; i++)
         {
             Fs[i].transform.SetParent(floatyContainer.transform);

@@ -12,6 +12,11 @@ public class FloatyFactory : MonoBehaviour {
     // Filter
     private FloatyFilter filter;
 
+    [Header("Filter Values")]
+    public Vector3 minPosition;
+    public Vector3 maxPosition;
+    public Vector3 maxTorque;
+
     void Awake() {
 #if UNITY_EDITOR
         if (FloatyPrefab == null)
@@ -29,7 +34,9 @@ public class FloatyFactory : MonoBehaviour {
         nUsed = 0;
 
         // TODO:  Currently, only using Random Filter
-        filter = gameObject.AddComponent<FloatyRandomFilter>();
+        FloatyRandomFilter FR = gameObject.AddComponent<FloatyRandomFilter>();
+        FR.SetValues(minPosition, maxPosition, maxTorque);
+        filter = FR;
 
         Debug.Log("FloatyFactory ready with cache size: " + FloatyCacheSize);
     }

@@ -17,12 +17,13 @@ public class Floaty : MonoBehaviour {
 	[Tooltip("Color swap frequency")]
 	public float colorSwapTime;
 
-	private SpriteRenderer renderer;
+	private SpriteRenderer spRend;
 	private Color randomColor;
 	public float timer;
 	void Start(){
-		renderer = GetComponent<SpriteRenderer>();
-		randomColor = new Color (Random.value * 10, Random.value * 10, Random.value * 10);
+		spRend = GetComponent<SpriteRenderer>();
+		randomColor = new Color (Random.value, Random.value, Random.value);
+        spRend.color = randomColor;
 	}
 
 	// Update is called once per frame
@@ -37,7 +38,7 @@ public class Floaty : MonoBehaviour {
 		if (timer >= colorSwapTime) {
 			
 			randomColor = new Color (Random.value, Random.value, Random.value);
-			renderer.color = randomColor;
+			spRend.color = randomColor;
 			timer -= colorSwapTime;
 		} else {
 			

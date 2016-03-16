@@ -42,6 +42,9 @@ MonoBehaviour:
   tileSize: 10
   groundPrefabs:
   - {fileID: 434020, guid: 87019576e0acecf49a4308c013a60cfa, type: 2}
+  - {fileID: 434020, guid: 87019576e0acecf49a4308c013a60cfa, type: 2}
+  - {fileID: 452064, guid: 2773883fe23777944b703e947c14ec3b, type: 2}
+  finishPrefab: {fileID: 466662, guid: fd44182ad05007748b30719a1c21fce8, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

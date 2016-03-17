@@ -11,8 +11,15 @@ public class StatConsoleOut : MonoBehaviour, StatOut {
     //    print(stats.getDistance());
     //}
 
-    public void Display(string msg)
+    public void Display(Stats[] stats)
     {
-        print(msg);
+        foreach(Stats S in stats)
+        {
+            print(S.Name);
+            print("Steps:" + S.Steps);
+            print("Average Speed:" + S.AverageSpeed);
+            print("Maximum Speed:" + S.MaximumSpeed);
+            print("Time Taken:" + S.TimeTaken);
+        }
     }
 }

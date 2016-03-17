@@ -2,5 +2,5 @@
 
     //void add(Stats stats);
 
-    void Display(string msg);
+    void Display(Stats[] stats);
 }

@@ -358,7 +358,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FloatyPrefab: {fileID: 11495772, guid: 4e1e59175864f2d4f989e6566d879a79, type: 2}
-  FloatyCacheSize: 1000
+  FloatyCacheSize: 2000
   minPosition: {x: -25, y: -10, z: 0}
   maxPosition: {x: 25, y: 40, z: 1000}
   maxTorque: {x: 0, y: 3, z: 1}

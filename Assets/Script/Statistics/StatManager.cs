@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class StatManager : MonoBehaviour {
 
@@ -32,12 +33,38 @@ public class StatManager : MonoBehaviour {
         return true;
     }
 
+    // Average speed
+    // Do this all at once here at the end rather than while stepping, to minimize update time during gameplay
+    public void CalculateValues()
+    {
+        for (int j = 0; j < stats.Length; j++)
+        {
+            float avg = 0;
+            float max = 0;
+            Stats S = stats[j];
+            LinkedList<float> speeds = S.Speeds;
+            for (int i = 0; i < speeds.Count; i++)
+            {
+                float f = speeds.First.Value;
+                speeds.RemoveFirst();
+                avg += f;
+
+                if (f > max)
+                {
+                    max = f;
+                }
+            }
+
+            avg = avg / speeds.Count;
+
+            S.AverageSpeed = avg;
+            S.MaximumSpeed = max;
+        }
+    }
+
     public void DisplayAll()
     {
         print("Display -------------");
-        for (int i=0; i<stats.Length; i++)
-        {
-            statOutput.Display("p" + (i+1) + ":" + stats[i].GetDistance());
-        }
+        statOutput.Display(stats);
     }
 }

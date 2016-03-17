@@ -10,8 +10,8 @@ public class FloatyRandomFilter : FloatyFilter
 
     public override Floaty Filter(Floaty F)
     {
-        if ((minPosition == null) || (maxPosition == null) || (maxTorque == null))
-            SetTestValues();
+        //if ((minPosition == null) || (maxPosition == null) || (maxTorque == null))
+        //    SetTestValues();
         float x = Random.Range(minPosition.x, maxPosition.x);
         float y = Random.Range(minPosition.y, maxPosition.y);
         float z = Random.Range(minPosition.z, maxPosition.z);

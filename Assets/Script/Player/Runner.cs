@@ -31,10 +31,15 @@ public class Runner : MonoBehaviour
 
     // stats
     private Stats stats;
+    private bool shouldRegisterTime;
+
+    // a timer
+    private float timerTick;
+    float timer;
 
     // player number
     private int _player;
-    public int player
+    public int Player
     {
         get
         {
@@ -44,6 +49,7 @@ public class Runner : MonoBehaviour
         set
         {
             _player = value;
+            //stats.Name = "Player " + _player;
         }
     }
 
@@ -54,6 +60,9 @@ public class Runner : MonoBehaviour
         rb = GetComponent<Rigidbody>();
 
         stats = new Stats();
+        stats.Name = "Player " + Player;
+        timerTick = stats.timeTick;
+        shouldRegisterTime = false;
 
         // set up for running
         rb.drag = drag;
@@ -62,6 +71,14 @@ public class Runner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        timer += Time.deltaTime;
+        if (timer >= timerTick) // tick
+        {
+            stats.RegisterSpeed(speed);
+
+            timer -= timerTick;
+        }
+
         // animate ------------------------------------------
         if (anim.GetBool(IS_MOVING) == true)
         {
@@ -100,6 +117,11 @@ public class Runner : MonoBehaviour
     // Make a step forward
     public void Step()
     {
+        if(shouldRegisterTime)
+        {
+            stats.RegisterStartTime(Time.timeSinceLevelLoad);
+            shouldRegisterTime = false;
+        }
         Step(IS_MOVING);
     }
 
@@ -110,7 +132,10 @@ public class Runner : MonoBehaviour
     {
         GameManager gm = GameManager.instance;
         if (other.CompareTag("Finish"))
-            gm.CrossFinishLine(this);   
+        {
+            stats.RegisterEndTime(Time.timeSinceLevelLoad);
+            gm.CrossFinishLine(this);
+        }
     }
 
     public Stats Stats()

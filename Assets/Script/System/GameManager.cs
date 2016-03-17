@@ -29,8 +29,8 @@ public class GameManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        player1.player = 1;
-        player2.player = 2;
+        player1.Player = 1;
+        player2.Player = 2;
         ih = gameObject.AddComponent<InputHandler>();
         ih.SetPlayers(player1, player2);
 
@@ -62,7 +62,7 @@ public class GameManager : MonoBehaviour {
             sm.Register(player1, player2);
         }
         finishCount = finishCount + 1;
-        ih.SetInput(r.player, false); // turn off input
+        ih.SetInput(r.Player, false); // turn off input
     }
 
     void FixedUpdate()
@@ -74,6 +74,7 @@ public class GameManager : MonoBehaviour {
         if (displayStats && finishCount >= 2)
         {
             displayStats = false;
+            sm.CalculateValues();
             sm.DisplayAll();
         }
     }

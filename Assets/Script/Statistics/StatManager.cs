@@ -4,11 +4,13 @@ using System.Collections.Generic;
 
 public class StatManager : MonoBehaviour {
 
+
+
     Stats[] stats;
     private int count;
 
     private StatOut statOutput;
-
+    private StatGUIOut statGuiOutput;
     /**
         Register the player who's stats we want to manage.
     **/
@@ -29,6 +31,8 @@ public class StatManager : MonoBehaviour {
         }
         statOutput = gameObject.AddComponent<StatConsoleOut>();
         Debug.Log("Registered player stats");
+
+        statGuiOutput = gameObject.AddComponent<StatGUIOut>();
 
         return true;
     }
@@ -65,6 +69,10 @@ public class StatManager : MonoBehaviour {
     public void DisplayAll()
     {
         print("Display -------------");
+        StatUI statUI = GameObject.FindGameObjectsWithTag("Canvas")[0].GetComponent<StatUI>();
+        statUI.activateStatsScreen();
+        statUI.populateStatsScreen(stats);
         statOutput.Display(stats);
+        
     }
 }

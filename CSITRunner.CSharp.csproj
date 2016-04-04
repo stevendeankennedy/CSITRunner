@@ -78,7 +78,9 @@
     <Compile Include="Assets\Script\Statistics\StatGUIOut.cs" />
     <Compile Include="Assets\Script\Statistics\StatManager.cs" />
     <Compile Include="Assets\Script\Statistics\StatOut.cs" />
+    <Compile Include="Assets\Script\Statistics\StatUI.cs" />
     <Compile Include="Assets\Script\Statistics\Stats.cs" />
+    <Compile Include="Assets\Script\Statistics\StatsStuff.cs" />
     <Compile Include="Assets\Script\System\CountdownStart.cs" />
     <Compile Include="Assets\Script\System\CrossScreenHelper.cs" />
     <Compile Include="Assets\Script\System\GameManager.cs" />
@@ -86,6 +88,7 @@
     <Compile Include="Assets\Script\System\InputHandler.cs" />
     <Compile Include="Assets\Script\Util\Destroyer.cs" />
     <Compile Include="Assets\Script\ui\UIUpdater.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Scripts\Primitives\UILineRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resources\sources.txt" />

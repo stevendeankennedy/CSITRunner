@@ -4,6 +4,7 @@ using System.Collections;
 /**
     Basic runner.
 **/
+[RequireComponent( typeof (Rigidbody), typeof (BoxCollider))]
 public class Runner : MonoBehaviour
 {
     // constants
@@ -24,6 +25,9 @@ public class Runner : MonoBehaviour
     [Tooltip("This affects animation speed")]
     public float maxSpeed;
     bool willRun;
+
+    [Tooltip("Adjust sprite to not clip floor")]
+    public float preferredY;
 
     // useful component references
     private Animator anim;
@@ -60,12 +64,12 @@ public class Runner : MonoBehaviour
         rb = GetComponent<Rigidbody>();
 
         stats = new Stats();
-        stats.Name = "Player " + Player;
         timerTick = stats.timeTick;
         shouldRegisterTime = false;
 
         // set up for running
         rb.drag = drag;
+        Debug.Log(stats.Name + " ready!");
     }
 
     // Update is called once per frame

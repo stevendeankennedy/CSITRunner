@@ -15,7 +15,9 @@ public class GameManager : MonoBehaviour {
         }
     }
 
+    [HideInInspector]
     public Runner player1;
+    [HideInInspector]
     public Runner player2;
 
     private bool hasWinner;
@@ -25,10 +27,26 @@ public class GameManager : MonoBehaviour {
     private UIUpdater uiUpdater;
     private StatManager sm;
     private InputHandler ih;
-    //private FloatyFactory floatyFactory;
+    private CharacterCache characterCache;
 
 	// Use this for initialization
 	void Start () {
+        Debug.Log("Game Manager Starting...");
+
+        // Load default characters
+        characterCache = GetComponent<CharacterCache>();
+        player1 = characterCache.GetRunner();
+        player2 = characterCache.GetRunner();
+        RunnerCam[] cams = GetComponentsInChildren<RunnerCam>();
+        cams[0].runner = player1.transform;
+        cams[1].runner = player2.transform;
+        // set starting positions
+        player1.transform.position = new Vector3(-1.5f, player1.preferredY, 0f);
+        player2.transform.position = new Vector3(1.5f, player2.preferredY, 0f);
+        // activate
+        player1.gameObject.SetActive(true);
+        player2.gameObject.SetActive(true);
+        // set numbers
         player1.Player = 1;
         player2.Player = 2;
         ih = gameObject.AddComponent<InputHandler>();
@@ -37,6 +55,7 @@ public class GameManager : MonoBehaviour {
         sm = gameObject.AddComponent<StatManager>();
 
         uiUpdater = FindObjectOfType<UIUpdater>(); // TODO: Change this load...
+        uiUpdater.SetRunners(player1, player2);
 
         CountdownStart countdown = GetComponent<CountdownStart>();
         countdown.InputHandler = ih; // register ih
@@ -49,6 +68,11 @@ public class GameManager : MonoBehaviour {
             Fs[i].transform.SetParent(floatyContainer.transform);
         }
         floatyContainer.transform.SetParent(gameObject.transform);
+
+
+        
+
+        Debug.Log("Game Manager done with Start()");
 	}
     
     public void CrossFinishLine(Runner r)

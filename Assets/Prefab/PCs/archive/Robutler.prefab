@@ -131,10 +131,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a58b147507072064185ab6571d2b03ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
-  accelFactor: 0.8
-  decelFactor: 0.3
+  force: 0
+  drag: 0
   maxSpeed: 50
+  preferredY: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: OrangeOverride
+  m_Controller: {fileID: 9100000, guid: 8982518bf5bc30e4b9d36a0b9b7f56d2, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 38aab0721802360458f38ee902a2ae8b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: fd83a877b9eed8a408896953e64e30d0, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a7c54432559a11e46bc87c835d0be6df, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 60f8e6da58971524190be2da9d68da9d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 59766b7a79f0fc841b134f18a974aab4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7dd463c13a645704fb1ecef1fb4ea7ce, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 88c40c5201ddfcb43b1632603db2bedd, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 88c40c5201ddfcb43b1632603db2bedd, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 66166d442d6843c498c0677f68d2e31b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 66166d442d6843c498c0677f68d2e31b, type: 2}

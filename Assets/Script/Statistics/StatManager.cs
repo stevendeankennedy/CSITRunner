@@ -70,8 +70,7 @@ public class StatManager : MonoBehaviour {
     {
         print("Display -------------");
         StatUI statUI = GameObject.FindGameObjectsWithTag("Canvas")[0].GetComponent<StatUI>();
-        statUI.activateStatsScreen();
-        statUI.populateStatsScreen(stats);
+        statUI.Display(stats);
         statOutput.Display(stats);
         
     }

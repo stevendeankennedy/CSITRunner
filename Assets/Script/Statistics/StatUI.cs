@@ -4,7 +4,7 @@ using UnityEngine.UI;
 using UnityEngine.UI.Extensions;
 using System.Collections.Generic;
 
-public class StatUI : MonoBehaviour {
+public class StatUI : MonoBehaviour, StatOut {
 
     public GameObject statsScreen;
     public GameObject player1Line, player2Line;
@@ -110,7 +110,7 @@ public class StatUI : MonoBehaviour {
     }
 
 
-    public void activateStatsScreen() {
+    private void activateStatsScreen() {
 
         statsScreen.SetActive(true);
         player1LR = player1Line.GetComponent<UILineRenderer>();
@@ -119,7 +119,9 @@ public class StatUI : MonoBehaviour {
     }
 
     //We do all the stuff to populate the UI with stats information
-    public void populateStatsScreen(Stats[] stats) {
+    public void Display(Stats[] stats) {
+
+        activateStatsScreen();
 
         //We need to store a bunch of information for numbered stats
         player1Stepsint = stats[0].Steps;

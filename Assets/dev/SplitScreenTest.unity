@@ -2220,6 +2220,14 @@ Prefab:
       propertyPath: tileSize
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 11469118, guid: 7ebe8033c9ce0444bbb81923c6b626a5, type: 2}
+      propertyPath: nActives
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 11469118, guid: 7ebe8033c9ce0444bbb81923c6b626a5, type: 2}
+      propertyPath: numberOfMapTiles
+      value: 20
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7ebe8033c9ce0444bbb81923c6b626a5, type: 2}
   m_IsPrefabParent: 0

@@ -7,8 +7,7 @@ using System.Collections.Generic;
 **/
 public class GroundManager : MonoBehaviour {
 
-    public static int cacheSize = 100;
-    public static int nActives = 100;
+    public int numberOfMapTiles;
 
     public int tileSize = 10;
 
@@ -25,8 +24,10 @@ public class GroundManager : MonoBehaviour {
         cache = new LinkedList<Transform>();
         actives = new LinkedList<Transform>();
 
+        finishPrefab.gameObject.SetActive(false);
+
         // fill up cache with instantiated tiles from prefabs
-        for(int i=0; i<cacheSize; i++)
+        for (int i=0; i < numberOfMapTiles; i++)
         {
             //Randomize tiles
             int R = Random.Range(0, groundPrefabs.Length);
@@ -37,15 +38,14 @@ public class GroundManager : MonoBehaviour {
         }
         Transform last = Instantiate<Transform>(finishPrefab);
         last.SetParent(transform);
-        finishPrefab.gameObject.SetActive(false);
-        cache.AddLast(last);
+        cache.AddLast(last); // there is at least a finish line
         Debug.Log("GroundManager Ready");
     }
 
 	// initialization
 	void Start () {
         // activate starting tiles
-	    for (int i=0; i<nActives + 1; i++) // nActives + 1 due to finish line.
+	    for (int i=0; i<numberOfMapTiles + 1; i++) // +1 since the finish line is also in there
         {
             Transform t = cache.First.Value;
             Vector3 pos = new Vector3(0f, 0f, i * tileSize);
@@ -63,7 +63,7 @@ public class GroundManager : MonoBehaviour {
     void OnDrawGizmos()
     {
         Gizmos.color = Color.green;
-        for (int i = 0; i < GroundManager.nActives; i++)
+        for (int i = 0; i < numberOfMapTiles + 1; i++) // +1 to leave room for finish line
         {
             Vector3 pos = new Vector3(0, 0, i * tileSize);
             Gizmos.DrawWireCube(pos, new Vector3(tileSize, 0.2f, tileSize));

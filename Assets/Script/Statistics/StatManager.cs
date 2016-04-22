@@ -46,11 +46,14 @@ public class StatManager : MonoBehaviour {
             float avg = 0;
             float max = 0;
             Stats S = stats[j];
-            LinkedList<float> speeds = S.Speeds;
-            for (int i = 0; i < speeds.Count; i++)
+            float[] speeds = new float[S.Speeds.Count];
+            S.Speeds.CopyTo(speeds,0);
+
+            for (int i = 0; i < speeds.Length; i++)
             {
-                float f = speeds.First.Value;
-                speeds.RemoveFirst();
+                Debug.Log(i);
+                float f = speeds[i];
+                //speeds.RemoveFirst();
                 avg += f;
 
                 if (f > max)
@@ -59,11 +62,17 @@ public class StatManager : MonoBehaviour {
                 }
             }
 
-            avg = avg / speeds.Count;
+            avg = avg / speeds.Length;
 
             S.AverageSpeed = avg;
             S.MaximumSpeed = max;
+            //Quick fix to remove the first 15 that would have been removed given that the previous method of calculations worked.
+            for (int k = 0; k < 15; k++) {
+                S.Speeds.RemoveFirst();
+            }
+           
         }
+
     }
 
     public void DisplayAll()

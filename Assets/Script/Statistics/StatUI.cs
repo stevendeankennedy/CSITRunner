@@ -178,7 +178,6 @@ public class StatUI : MonoBehaviour, StatOut {
 
             //We use the same value for player 1 and 2 so we just do one calculation.
             xPoint = (float)i / upper * 100;
-           
 
             player1LR.Points[i].x = xPoint;
             player1LR.Points[i].y = (float)p1.Value / max * 50;

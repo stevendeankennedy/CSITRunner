@@ -9,7 +9,7 @@ public class StatUI : MonoBehaviour, StatOut {
     public GameObject statsScreen;
     public GameObject player1Line, player2Line;
 
-    //TODO [Matt] I'm not a fan, look at this system before pushing.
+   
     // I was debating whether or not to use the parent object and make all calls or to just explicitly state all the text object.
     // These are the text boxes for each players stats.
     public Text player1Steps, player1AvgSpeed, player1MaxSpeed, player1TimeTaken;
@@ -152,6 +152,7 @@ public class StatUI : MonoBehaviour, StatOut {
         player2LR.Points[0].x = 0;
         player2LR.Points[0].y = 0;
 
+
         if (player1MaxSpeedfloat > player2MaxSpeedfloat)
         {
             int s = (int)player1MaxSpeedfloat;
@@ -201,7 +202,10 @@ public class StatUI : MonoBehaviour, StatOut {
         player2LR.Points[upper + 1].x = xPoint;
         player2LR.Points[upper + 1].y = player2LR.Points[upper].y;
 
-
+        //"This is bad, just replace the terrible line renderer thing" I keep saying to myself.
+        //Hacky fix in order to aleviate some overlap in the redered line.
+        player1LR.Points[1].x = 0;
+        player2LR.Points[1].x = 0;
        
         
 

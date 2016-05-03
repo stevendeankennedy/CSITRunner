@@ -5,16 +5,17 @@ using UnityEngine.SceneManagement;
 public class CrossScreenHelper : MonoBehaviour {
 
     //int corrasponding to what the plater will choose. The assumption is that when the characters are created in the next scene they can just take this number, instantiate, and associate with P1, P2.
-    public GameObject Player1Char;
-    public GameObject Player2Char;
+    public Runner Player1Char;
+    public Runner Player2Char;
 
     //The character prefabs that we will use for characters.
-    public GameObject LINK, LAN;
+    public Runner LINK, RED, ORANGE;
 
     //An enum to make selecting characters easier.
     public enum Characters {
         LINK,
-        LAN
+        RED,
+        ORANGE
     }
 
     void Awake() {
@@ -38,8 +39,12 @@ public class CrossScreenHelper : MonoBehaviour {
             this.Player1Char = LINK;
         }
         //did an if else due to the fact that we may have multiple characters in teh game before launch.
-        else if ((Characters)selection == Characters.LAN) {
-            this.Player1Char = LAN;
+        else if ((Characters)selection == Characters.RED) {
+            this.Player1Char = RED;
+        }
+        else if ((Characters)selection == Characters.ORANGE)
+        {
+            this.Player1Char = ORANGE;
         }
     }
 
@@ -52,14 +57,32 @@ public class CrossScreenHelper : MonoBehaviour {
             this.Player2Char = LINK;
         }
         //did an if else due to the fact that we may have multiple characters in teh game before launch.
-        else if ((Characters)selection == Characters.LAN)
+        else if ((Characters)selection == Characters.RED)
         {
-            this.Player2Char = LAN;
+            this.Player2Char = RED;
+        }
+        else if ((Characters)selection == Characters.ORANGE)
+        {
+            this.Player2Char = ORANGE;
         }
     }
+    public Runner getPlayer1() {
+        return Player1Char;
+    }
 
+    public Runner getPlayer2() {
+        return Player2Char;
+    }
     //Called on Arcade button press. Will load the arcade mode of the game. I.E no character select. TODO[Matt] Make sure this isn't pointing at your test scene before pushing. Watch this not happen.
     public void ChangeLevelArcade() {
-        SceneManager.LoadScene("SplitScreenTest");
+        DontDestroyOnLoad(this);
+        SceneManager.LoadScene("SplitScreenProduction");
+    }
+
+    public void ChangeLevelMenu() {
+        // In this case a new Cross screen will be created, so we can kill ourselves.
+        Destroy(this.gameObject);
+        SceneManager.LoadScene(0);
+        
     }
 }

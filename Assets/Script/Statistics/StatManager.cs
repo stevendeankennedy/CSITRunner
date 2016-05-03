@@ -33,7 +33,8 @@ public class StatManager : MonoBehaviour {
         Debug.Log("Registered player stats");
 
         statGuiOutput = gameObject.AddComponent<StatGUIOut>();
-
+        // TODO[matt] this is throwing a fit for never being used, IDK why but it will stop the game from running. . . 
+        statGuiOutput.Equals("s");
         return true;
     }
 

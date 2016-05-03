@@ -20,6 +20,9 @@ public class GameManager : MonoBehaviour {
     [HideInInspector]
     public Runner player2;
 
+    public CrossScreenHelper crossScreenPrefab;
+
+    private GameObject[] G;
     private bool hasWinner;
     private int finishCount = 0;
     private bool displayStats = true;
@@ -33,8 +36,26 @@ public class GameManager : MonoBehaviour {
 	void Start () {
         Debug.Log("Game Manager Starting...");
 
+        //Make sure our cross screen exists, and make it usable
+        G = GameObject.FindGameObjectsWithTag("CrossScreenHelper");
+        //Cross Scene stuff
+        if (G.Length == 0)
+        {
+            Instantiate(crossScreenPrefab);
+            // Lazy way.
+            G = GameObject.FindGameObjectsWithTag("CrossScreenHelper");
+        }
+        else{
+            GetComponent<CharacterCache>().prefabs[0] = G[0].GetComponent<CrossScreenHelper>().getPlayer1();
+            GetComponent<CharacterCache>().prefabs[1] = G[0].GetComponent<CrossScreenHelper>().getPlayer2();
+        }
+
+
+
         // Load default characters
         characterCache = GetComponent<CharacterCache>();
+        // Instantiate the objects
+        characterCache.startUp();
         player1 = characterCache.GetRunner();
         player2 = characterCache.GetRunner();
         RunnerCam[] cams = GetComponentsInChildren<RunnerCam>();
@@ -72,6 +93,8 @@ public class GameManager : MonoBehaviour {
 
         
 
+        
+
         Debug.Log("Game Manager done with Start()");
 	}
     
@@ -100,6 +123,16 @@ public class GameManager : MonoBehaviour {
             displayStats = false;
             sm.CalculateValues();
             sm.DisplayAll();
+        }
+    }
+
+    public void ChangeLevel(int level) {
+        if (level == 0)
+        {
+            G[0].GetComponent<CrossScreenHelper>().ChangeLevelMenu();
+        }
+        else {
+            G[0].GetComponent<CrossScreenHelper>().ChangeLevelArcade();
         }
     }
 }

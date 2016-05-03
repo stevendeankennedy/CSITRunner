@@ -11,14 +11,18 @@ public class CharacterCache : MonoBehaviour {
 	// Use this for initialization
 	void Awake () {
 
+        
+	}
+
+    public void startUp() {
         cache = new Runner[prefabs.Length];
-	    // instantiate all prefabs;
+        // instantiate all prefabs;
         for (int i = 0; i < prefabs.Length; i++)
         {
             cache[i] = Instantiate<Runner>(prefabs[i]);
             cache[i].gameObject.SetActive(false);
         }
-	}
+    }
 	
     public Runner GetRunner()
     {

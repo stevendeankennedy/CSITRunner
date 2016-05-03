@@ -5,9 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/dev/SplitScreenTest-Matt.unity
   - enabled: 1
     path: Assets/dev/Menu.unity
   - enabled: 1
-    path: Assets/dev/SplitScreenTest.unity
+    path: Assets/dev/SplitScreenProduction.unity

@@ -20,6 +20,8 @@ public class GameManager : MonoBehaviour {
     [HideInInspector]
     public Runner player2;
 
+    public AudioSource StepAudio;
+
     public CrossScreenHelper crossScreenPrefab;
 
     private GameObject[] G;
@@ -72,6 +74,7 @@ public class GameManager : MonoBehaviour {
         player2.Player = 2;
         ih = gameObject.AddComponent<InputHandler>();
         ih.SetPlayers(player1, player2);
+        ih.SetAudio(StepAudio);
 
         sm = gameObject.AddComponent<StatManager>();
 

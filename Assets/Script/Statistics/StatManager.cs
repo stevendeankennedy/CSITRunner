@@ -52,7 +52,6 @@ public class StatManager : MonoBehaviour {
 
             for (int i = 0; i < speeds.Length; i++)
             {
-                Debug.Log(i);
                 float f = speeds[i];
                 //speeds.RemoveFirst();
                 avg += f;

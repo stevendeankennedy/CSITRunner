@@ -7,6 +7,8 @@ public class InputHandler : MonoBehaviour
     const string P1_BUTTON = "p1Step";
     const string P2_BUTTON = "p2Step";
 
+    AudioSource stepAudio;
+
     Runner p1;
     Runner p2;
 
@@ -27,8 +29,12 @@ public class InputHandler : MonoBehaviour
         if (doInputP1)
         {
             bool step = Input.GetButtonDown(P1_BUTTON);
-            if (step)
+            if (step) {
                 p1.Step();
+                stepAudio.Play();
+            }
+                
+                
         }
 
         // player 2 ------------------------------
@@ -36,7 +42,10 @@ public class InputHandler : MonoBehaviour
         {
             bool step = Input.GetButtonDown(P2_BUTTON);
             if (step)
+            {
                 p2.Step();
+                stepAudio.Play();
+            }
         }
     }
 
@@ -44,6 +53,11 @@ public class InputHandler : MonoBehaviour
     {
         this.p1 = p1;
         this.p2 = p2;
+    }
+
+    public void SetAudio(AudioSource StepAudio)
+    {
+        this.stepAudio = StepAudio;
     }
 
     /**

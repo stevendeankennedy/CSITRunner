@@ -110,6 +110,8 @@ public class GameManager : MonoBehaviour {
             Debug.Log(r.name + " wins!");
             uiUpdater.ShowWinner(transform.position);
             sm.Register(player1, player2);
+            Animator a = r.GetComponent<Animator>();
+            a.SetBool("didWin", true);
         }
         finishCount = finishCount + 1;
         ih.SetInput(r.Player, false); // turn off input

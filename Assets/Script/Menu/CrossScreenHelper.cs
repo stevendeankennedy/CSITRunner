@@ -9,13 +9,16 @@ public class CrossScreenHelper : MonoBehaviour {
     public Runner Player2Char;
 
     //The character prefabs that we will use for characters.
-    public Runner LINK, RED, ORANGE;
+    public Runner LINK, RED, ORANGE, PURPLE, REDGUY, YELLOW;
 
     //An enum to make selecting characters easier.
     public enum Characters {
         LINK,
         RED,
-        ORANGE
+        ORANGE,
+        PURPLE,
+        REDGUY,
+        YELLOW
     }
 
     void Awake() {
@@ -46,6 +49,18 @@ public class CrossScreenHelper : MonoBehaviour {
         {
             this.Player1Char = ORANGE;
         }
+        else if ((Characters)selection == Characters.PURPLE)
+        {
+            this.Player1Char = PURPLE;
+        }
+        else if ((Characters)selection == Characters.REDGUY)
+        {
+            this.Player1Char = REDGUY;
+        }
+        else if ((Characters)selection == Characters.YELLOW)
+        {
+            this.Player1Char = YELLOW;
+        }
     }
 
     //TODO[Matt] this whole passing an int thing and casting to a character is terrible, figure out how the static thing works so that I can actually make it the correct way.
@@ -64,6 +79,18 @@ public class CrossScreenHelper : MonoBehaviour {
         else if ((Characters)selection == Characters.ORANGE)
         {
             this.Player2Char = ORANGE;
+        }
+        else if ((Characters)selection == Characters.PURPLE)
+        {
+            this.Player2Char = PURPLE;
+        }
+        else if ((Characters)selection == Characters.REDGUY)
+        {
+            this.Player2Char = REDGUY;
+        }
+        else if ((Characters)selection == Characters.YELLOW)
+        {
+            this.Player2Char = YELLOW;
         }
     }
     public Runner getPlayer1() {
@@ -84,5 +111,10 @@ public class CrossScreenHelper : MonoBehaviour {
         Destroy(this.gameObject);
         SceneManager.LoadScene(0);
         
+    }
+
+    //Quit the game
+    public void QuitGame() {
+        Application.Quit();
     }
 }

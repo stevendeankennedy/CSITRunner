@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a58b147507072064185ab6571d2b03ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: 80
+  force: 800
   drag: 2
   maxSpeed: 50
   preferredY: 2
@@ -157,6 +157,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: preferredY
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: force
+      value: 800
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

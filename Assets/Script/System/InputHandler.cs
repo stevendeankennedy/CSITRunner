@@ -47,6 +47,12 @@ public class InputHandler : MonoBehaviour
                 stepAudio.Play();
             }
         }
+
+        //Hard coded back to menu key (esc)
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+           GameObject[] G = GameObject.FindGameObjectsWithTag("CrossScreenHelper");
+            G[0].GetComponent<CrossScreenHelper>().ChangeLevelMenu();
+        }
     }
 
     public void SetPlayers(Runner p1, Runner p2)

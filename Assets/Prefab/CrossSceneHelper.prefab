@@ -44,6 +44,9 @@ MonoBehaviour:
   LINK: {fileID: 11414542, guid: 3eade2c5d2f028f41a1580cd23793988, type: 2}
   RED: {fileID: 11432736, guid: 4ff8b2111c885594e90917f8cc5d026c, type: 2}
   ORANGE: {fileID: 11400914, guid: 9c48c8d20e8b21041ad99b7ce7a3bdca, type: 2}
+  PURPLE: {fileID: 11407876, guid: c1a6683876bd9d24399997929a2cc171, type: 2}
+  REDGUY: {fileID: 11480278, guid: 24870998b3e6e7e47a56c35c1828d94a, type: 2}
+  YELLOW: {fileID: 11482150, guid: 94b059642f44e0b448a347216ffb90f8, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -64,6 +67,21 @@ Prefab:
       propertyPath: RED
       value: 
       objectReference: {fileID: 11432736, guid: 4ff8b2111c885594e90917f8cc5d026c,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: PURPLE
+      value: 
+      objectReference: {fileID: 11407876, guid: c1a6683876bd9d24399997929a2cc171,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: REDGUY
+      value: 
+      objectReference: {fileID: 11480278, guid: 24870998b3e6e7e47a56c35c1828d94a,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: YELLOW
+      value: 
+      objectReference: {fileID: 11482150, guid: 94b059642f44e0b448a347216ffb90f8,
         type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

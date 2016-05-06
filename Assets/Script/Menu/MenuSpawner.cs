@@ -4,6 +4,7 @@ using System.Collections;
 public class MenuSpawner : MonoBehaviour {
 
     public GameObject[] groundTiles = new GameObject[1];
+    public float timeBetweenBuilds;
     private float lastBuild;
     private int randomHolder;
 
@@ -16,7 +17,7 @@ public class MenuSpawner : MonoBehaviour {
 	void Update () {
 
         // It it's been 1 second since the last build we grab another random tile and build it.
-        if (Time.time >= lastBuild + 1) {
+        if (Time.time >= lastBuild + timeBetweenBuilds) {
             randomHolder = Random.Range(0, groundTiles.Length);
             GameObject x = (GameObject) Instantiate(groundTiles[randomHolder], new Vector3(0.0f, 0.0f, this.transform.position.z), Quaternion.identity);
             x.AddComponent<MenuMover>();

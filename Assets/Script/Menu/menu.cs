@@ -31,86 +31,86 @@ public class menu : MonoBehaviour {
         charSelectButtons.AddFirst(CHARSELECT1);
  
 
-        currentButton = mainMenuButtons.First;
-        currentButton.Value.Select();
+        //currentButton = mainMenuButtons.First;
+        //currentButton.Value.Select();
 
     }
 	
 	// Update is called once per frame
 	void Update () {
-        //player1 enter
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            currentButton.Value.onClick.Invoke();
-        }
-        //Player 1 back.
-        else if (Input.GetKeyDown(KeyCode.Q)) {
+        ////player1 enter
+        //if (Input.GetKeyDown(KeyCode.E))
+        //{
+        //    currentButton.Value.onClick.Invoke();
+        //}
+        ////Player 1 back.
+        //else if (Input.GetKeyDown(KeyCode.Q)) {
 
-        }
-        //player1 down
-        else if (Input.GetKeyDown(KeyCode.S))
-        {
-            if (ScreenStateVariable == ScreenState.MainMenu)
-            {
-                //move down
-                //this is a fancy way to just pull back to the begining of the list since circular linked lists are not a built in data type.
-                //Credit for this little hack is http://stackoverflow.com/a/7332084
-                currentButton = currentButton.Next ?? currentButton.List.First;
-                currentButton.Value.Select();
-            }
-            else {
-                //move down
-                //Shouldn't do anythign on the char menu
-            }
-        }
-        else if (Input.GetKeyDown(KeyCode.W))
-        {
-            if (ScreenStateVariable == ScreenState.MainMenu)
-            {
-                //move up
-                currentButton = currentButton.Previous ?? currentButton.List.Last;
-                currentButton.Value.Select();
-            }
-            else {
-                //move up
-                //Shouldn't do anythign on the char menu
-            }
-        }
-        else if (Input.GetKeyDown(KeyCode.D))
-        {
-            if (ScreenStateVariable == ScreenState.MainMenu)
-            {
-                //move right
-                //won't do anything on the main menu buttons.
+        //}
+        ////player1 down
+        //else if (Input.GetKeyDown(KeyCode.S))
+        //{
+        //    if (ScreenStateVariable == ScreenState.MainMenu)
+        //    {
+        //        //move down
+        //        //this is a fancy way to just pull back to the begining of the list since circular linked lists are not a built in data type.
+        //        //Credit for this little hack is http://stackoverflow.com/a/7332084
+        //        currentButton = currentButton.Next ?? currentButton.List.First;
+        //        currentButton.Value.Select();
+        //    }
+        //    else {
+        //        //move down
+        //        //Shouldn't do anythign on the char menu
+        //    }
+        //}
+        //else if (Input.GetKeyDown(KeyCode.W))
+        //{
+        //    if (ScreenStateVariable == ScreenState.MainMenu)
+        //    {
+        //        //move up
+        //        currentButton = currentButton.Previous ?? currentButton.List.Last;
+        //        currentButton.Value.Select();
+        //    }
+        //    else {
+        //        //move up
+        //        //Shouldn't do anythign on the char menu
+        //    }
+        //}
+        //else if (Input.GetKeyDown(KeyCode.D))
+        //{
+        //    if (ScreenStateVariable == ScreenState.MainMenu)
+        //    {
+        //        //move right
+        //        //won't do anything on the main menu buttons.
 
-            }
-            else {
-                //move right
-                currentButton = currentButton.Previous ?? currentButton.List.Last;
-                currentButton.Value.Select();
-            }
-        }
-        else if (Input.GetKeyDown(KeyCode.A))
-        {
-            if (ScreenStateVariable == ScreenState.MainMenu)
-            {
-                //move left
-                //won't do anything on the main menu buttons.
+        //    }
+        //    else {
+        //        //move right
+        //        currentButton = currentButton.Previous ?? currentButton.List.Last;
+        //        currentButton.Value.Select();
+        //    }
+        //}
+        //else if (Input.GetKeyDown(KeyCode.A))
+        //{
+        //    if (ScreenStateVariable == ScreenState.MainMenu)
+        //    {
+        //        //move left
+        //        //won't do anything on the main menu buttons.
 
-            }
-            else {
-                //move left
-                currentButton = currentButton.Previous ?? currentButton.List.Last;
-                currentButton.Value.Select();
-            }
-        }
+        //    }
+        //    else {
+        //        //move left
+        //        currentButton = currentButton.Previous ?? currentButton.List.Last;
+        //        currentButton.Value.Select();
+        //    }
+        //}
     }
 
     public void CharSelect() {
 
         //set up so we now are slecting blocks from the character select screen.
         currentButton = charSelectButtons.First;
-        currentButton.Value.Select();
+        //currentButton.Value.Select();
         ScreenStateVariable = ScreenState.CharSelect;
     }
 
